@@ -1,4 +1,5 @@
-
+# Automating Powershell with Jenkins
+![alt text](http://blog.onclickinnovations.com/wp-content/uploads/2017/05/jenkins.jpeg)
 
 # PREREQUISITS
 
