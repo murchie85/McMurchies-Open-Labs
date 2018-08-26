@@ -1,15 +1,17 @@
 
 # McMurchies Open Labs
 
-## CODING CHALLENGES
-
-Home | [Build Your own CryptoCurrency Reporting Site](PROJECTA-CRYPTO-REPORTING/README.md) | [Developing an Interactive Chatbot and working with real language](PROJECTA-CRYPTO-REPORTING/README.md) | [Prototyping an Automated Tading Bot](PROJECTA-CRYPTO-REPORTING/README.md)
-
 ## LEARNING MATERIALS
-
+[ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) | 
 [Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |  
 [Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |  
 [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
+
+## CODING CHALLENGES
+
+Home | [Build Your own CryptoCurrency Reporting Site](PROJECTA-CRYPTO-REPORTING/README.md) | 
+[Developing an Interactive Chatbot and working with real language](PROJECTA-CRYPTO-REPORTING/README.md) | 
+[Prototyping an Automated Tading Bot](PROJECTA-CRYPTO-REPORTING/README.md)
 
 ![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
 
