@@ -1,8 +1,13 @@
 
 # McMurchies Open Labs
 
+A one stop shop for **REAL** hands on coding practice, with tutotials on working with crypto currency, automating scripts and challenges you can work on to learn everything from Neural Networks to  Natural language processing.
+
+![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
+
+
 ## LEARNING MATERIALS
-[ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) | 
+[ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) |   
 [Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |  
 [Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |  
 [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
@@ -13,7 +18,6 @@ Home | [Build Your own CryptoCurrency Reporting Site](PROJECTA-CRYPTO-REPORTING/
 [Developing an Interactive Chatbot and working with real language](PROJECTA-CRYPTO-REPORTING/README.md) | 
 [Prototyping an Automated Tading Bot](PROJECTA-CRYPTO-REPORTING/README.md)
 
-![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
 
 ## PROJECT SELECTION   
 
