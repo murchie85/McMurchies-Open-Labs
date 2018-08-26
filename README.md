@@ -5,7 +5,7 @@
 
 Home | [Build Your own CryptoCurrency Reporting App/Site](PROJECTA-CRYPTO-REPORTING/README.md) |
 
-![Generic Coding Image lol](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDkqou7upGo7kp_Fh4XET0sLeMz5AKorxYx9oiy_0GDWuMtZH4Jw)
+![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
 
 ## PROJECT SELECTION   
 
