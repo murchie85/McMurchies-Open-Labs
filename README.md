@@ -17,8 +17,8 @@ Home | [Build Your own CryptoCurrency Reporting App/Site](PROJECTA-CRYPTO-REPORT
 
 ## LEARNING OUTCOMES  
 
-1. **Reporting app** Gives you insight into data science, manipulation & presentation of data - and eventually Neural Networks
+1. **OUTCOMES - Reporting app** Gives you insight into data science, manipulation & presentation of data - and eventually Neural Networks
 
-2. **Interactive chatbot** Gives you experience working heavily with parsing, language processing (which is good for summarizing customer reviews, obtaining opinions and sentiments), also huge on the customer side of things with chat interaction, Neural networks would be likely here, but a different kind. RNNs that is neural networks that are focused on 'order of things'.
+2. **OUTCOMES -Interactive chatbot** Gives you experience working heavily with parsing, language processing (which is good for summarizing customer reviews, obtaining opinions and sentiments), also huge on the customer side of things with chat interaction, Neural networks would be likely here, but a different kind. RNNs that is neural networks that are focused on 'order of things'.
 
-3. **Automated Trading Bot** Highly practical, intimate knowledge working with APIs, processing data, CryptoTransactions, working with CryptoMarkets - but we can apply a much more old school solution to this. No neural nets required in the beginning
+3. **OUTCOMES -Automated Trading Bot** Highly practical, intimate knowledge working with APIs, processing data, CryptoTransactions, working with CryptoMarkets - but we can apply a much more old school solution to this. No neural nets required in the beginning
