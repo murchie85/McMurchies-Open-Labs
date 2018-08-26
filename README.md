@@ -7,6 +7,8 @@ Home | [Build Your own CryptoCurrency Reporting Site](PROJECTA-CRYPTO-REPORTING/
 
 ## LEARNING MATERIALS
 
+[Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |
+[Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |
 [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
 
 ![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
