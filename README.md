@@ -7,8 +7,8 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 
 
 ## LEARNING MATERIALS
-[React Fundamentals](Tutorials/REACT/README.md) |
-[TDD Test Driven Development with JAVA](Tutorials/JAVATDD/README.md)) |
+[React Fundamentals](Tutorials/REACT/README.md) |  
+[TDD Test Driven Development with JAVA](Tutorials/JAVATDD/README.md)) | 
 [ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) |   
 [Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |  
 [Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |  
