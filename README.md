@@ -7,7 +7,7 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 
 
 ## LEARNING MATERIALS
-[Introduction to Angular2](Tutorials/ANGULAR2/README.md) |
+[Introduction to Angular2](Tutorials/ANGULAR2/README.md) |  
 [React Fundamentals](Tutorials/REACT/README.md) |   
 [TDD Test Driven Development with JAVA](Tutorials/JAVATDD/README.md)) |  
 [ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) |    
