@@ -7,11 +7,12 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 
 
 ## LEARNING MATERIALS
-[React Fundamentals](Tutorials/REACT/README.md) |  
-[TDD Test Driven Development with JAVA](Tutorials/JAVATDD/README.md)) | 
-[ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) |   
-[Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |  
-[Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |  
+[Introduction to Angular2](Tutorials/ANGULAR2/README.md) |
+[React Fundamentals](Tutorials/REACT/README.md) |   
+[TDD Test Driven Development with JAVA](Tutorials/JAVATDD/README.md)) |  
+[ProcessingCryptoData with Python](Tutorials/ProcessingCryptoData/README.md) |    
+[Automating Python Scripts on Mac)](Tutorials/PythonAutomation/README.md) |   
+[Automating Powershell Scripts with Jenkins (Windows)](Tutorials/JenkinsAutomation/README.md) |   
 [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
 
 ## CODING CHALLENGES
