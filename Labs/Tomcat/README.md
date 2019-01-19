@@ -39,7 +39,7 @@
 2. Servlet is a Specialised JAVA CLASS 
 2.1 Handles http requests like GET, POST, PUT etc
 
-![2](images/2.PNG)  
+![2](images/2.jpg)  
   
 3. If the resource called is a JSP - it is translated and compiled into a Servlet before being executed by the container  
 
@@ -48,7 +48,7 @@
 
 For End to End Lifecycle Execution Various Components are Required.
 
-![3](images/3.PNG)  
+![3](images/3.jpg)  
 
 
 ## CATALINIA 
@@ -78,11 +78,11 @@ For End to End Lifecycle Execution Various Components are Required.
 
 ## Manager Application
 
-![4](images/4.PNG) 
+![4](images/4.jpg) 
 
 ## FILE SYSTEM 
 
-![5](images/5.PNG) 
+![5](images/5.jpg) 
 <p align="center">
 <img src="comps.jpg" title="components" width="256" height="256">
 </p>
