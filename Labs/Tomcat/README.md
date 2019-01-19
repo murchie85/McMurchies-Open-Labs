@@ -31,8 +31,57 @@
 
 # OVERVIEW OF SERVLETT CONTAINER
 
+![TOMCAT](images/1.JPG)  
+
+## CORE FEATURE -  HTTP REQ/RESP MODEL
+
+1. A request made for any dynamic web resource like a JSP Servlet 
+2. Servlet is a Specialised JAVA CLASS 
+2.1 Handles http requests like GET, POST, PUT etc
+
+![2](images/2.JPG)  
+  
+3. If the resource called is a JSP - it is translated and compiled into a Servlet before being executed by the container 
+
+## TOMCAT COMPONENTS
+
+For End to End Lifecycle Execution Various Components are Required.
+
+![3](images/3.JPG)  
 
 
+## CATALINIA 
+
+- Core container, does init(), Service() , destroy()
+- MAIN ROLE - CONTROL LIFECYCLE 
+- By Loading, Initializing, Serving and Destroying the Servlet as per Java Specification of JSP and Servlets 
+- Manages the whole Bean Lifecycle - it is the core component.
+
+## JASPER 
+
+- JSP Engine
+- Converts JSP pages/code to Servlets 
+- This happens before servicing the request 
+- So if you change JSP mid flight, Jasper can potentially generate the updated servlet in time for the response 
+
+## COYOTE
+- Connector component 
+- Listens to TCP/IP ports to transmit web requests to container and end users
+- Vital in integration with other Web Servers and providing Static Content
+- Vital in running the applicaiton on SSL
+ 
+## CLUSTER
+- Important whilst running in distributed mode 
+- Added to manage large applications 
+- Used for load balancing via many techniques 
+
+## Manager Application
+
+![4](images/4.JPG) 
+
+## FILE SYSTEM 
+
+![5](images/5.JPG) 
 <p align="center">
 <img src="comps.jpg" title="components" width="256" height="256">
 </p>
