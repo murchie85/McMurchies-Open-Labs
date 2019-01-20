@@ -22,7 +22,13 @@ Ensure user experience is fast and error free under any load.
 1. Create user load 
 2. Measure the user experience 
 
+**HOW** does JMETER work? First we should understand how the browser works - it sends request to URL server responds with resources such as an image. Then the browser parses the response.  
 
+Finally the browser executes javascript js and repeats. **JMETER** is an open source apache tool, and does the following series of steps to achieve the 2 objectives. 
+
+1. JMeter sends a request *(http)*
+2. Server responds (with html resource)
+3. JMETER pareses response 
 # JMETER INTERFACE
 
 
