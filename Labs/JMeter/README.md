@@ -79,6 +79,10 @@ Lets add a sampler, which is just a http request as shown below.
 
 Now we will need to fill out the elements for the http request. But first we will show how we are creating a script for a specific scenario. There is a blogging platform called ghost, which can be installed locally. We can see how to log into ghost, store articles in csv format etc.
 
+
+**INCOMPLETE** Please come back later
+
+
 ![samplerchoice](images/samplerchoice.jpg) 
 
 
