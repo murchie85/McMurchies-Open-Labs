@@ -58,6 +58,29 @@ Now we will create a static script, first lets add a thread group from the menu.
 
 ![jmeter threadgroup](images/add.jpg)  
 
+This is essentially a group of users 
+
+![jmeter threadgroup](images/threadgroup.jpg) 
+
+Not all details will be covered, I will focus on only the main details, set the following:
+
+```
+Number of threads = 10
+Ramp up period = 60 (seconds)
+Loop count = 3 (times)
+```
+
+
+## Adding a Sampler 
+
+Lets add a sampler, which is just a http request as shown below. 
+
+![sampler](images/sampler.jpg) 
+
+Now we will need to fill out the elements for the http request. But first we will show how we are creating a script for a specific scenario. There is a blogging platform called ghost, which can be installed locally. We can see how to log into ghost, store articles in csv format etc.
+
+![samplerchoice](images/samplerchoice.jpg) 
+
 
 <p align="center">
 <img src="comps.jpg" title="components" width="256" height="256">
