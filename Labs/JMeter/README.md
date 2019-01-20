@@ -28,11 +28,34 @@ Finally the browser executes javascript js and repeats. **JMETER** is an open so
 1. JMeter sends a request *(http)*
 2. Server responds (with html resource)
 3. JMETER pareses response  ~~and executes javascript~~
-
+4. JMeter optionally parses and can simulate anything a browser does 
 
 # JMETER INTERFACE
+
+## JMETER VOCAB & TERMS 
+
+- TEST PLAN (JMeter Script)
+- THREAD GROUP (thread = user)
+- SAMPLERS (makes a request)
+- CONFIG ELEMENTS 
+- TIMER (add a delay)
+- LISTENER (reporting, logging, debugging)
+- ASSERTIONS (error checking)
+- PRE PROCESSORS (modify request)
+- POST PROCESSORS (parse the response)
+- LOGIC CONTROLLER 
+- WORK BENCH (temp working space)
+
+
+
+
 
 
 <p align="center">
 <img src="comps.jpg" title="components" width="256" height="256">
 </p>
+
+
+
+WORKING FROM FOLLOWING RESOURCE 
+https://www.youtube.com/watch?v=cv7KqxaLZd8
