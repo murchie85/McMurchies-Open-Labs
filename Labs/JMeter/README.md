@@ -3,8 +3,8 @@
 ![jmeter icon](images/jmeter.jpg) 
 
 
-1. [What is performance Testing?](What-is-performance-Testing?)
-2. [JMETER interface](JMeter-Interface)
+1. [What is performance Testing?](WHAT-IS-PERFORMANCE-TESTING)
+2. [JMETER interface](JMETER-INTERFACE)
 3. [Creating a Simple Static Script]
 4. [Recording actual browser activity]
 5. [User Login & Authentication]
@@ -13,11 +13,17 @@
 8. [CSV files] 
 
 
-# What is performance Testing?
+# WHAT IS PERFORMANCE TESTING
+
+Ensure user experience is fast and error free under any load.
+
+**How?**
+
+1. Create user load 
+2. Measure the user experience 
 
 
-
-# JMeter Interface)
+# JMETER INTERFACE
 
 
 <p align="center">
