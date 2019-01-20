@@ -16,7 +16,7 @@
 
 Ensure user experience is fast and error free under any load.
 
-##How?##
+## How?
 
 1. Create user load 
 2. Measure the user experience 
