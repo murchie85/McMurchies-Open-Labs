@@ -3,13 +3,13 @@
 ![jmeter icon](images/jmeter.jpg) 
 
 1. [What is performance Testing?](#WHAT-IS-PERFORMANCE-TESTING)
-2. [#JMETER interface](#JMETER-INTERFACE)
-3. [Creating a Simple Static Script]
-4. [Recording actual browser activity]
-5. [User Login & Authentication]
-6. [Dynamic Requests & User Variables] 
-7. [Extracting Values with Regular Experessions] 
-8. [CSV files] 
+2. [JMETER interface](#JMETER-INTERFACE)
+3. [Creating a Simple Static Script](#STATIC-SCRIPT)
+4. [Recording actual browser activity](#)
+5. [User Login & Authentication](#)
+6. [Dynamic Requests & User Variables](#)
+7. [Extracting Values with Regular Experessions](#)
+8. [CSV files](#)
 
 
 # WHAT IS PERFORMANCE TESTING
@@ -34,6 +34,10 @@ Finally the browser executes javascript js and repeats. **JMETER** is an open so
 
 ## JMETER VOCAB & TERMS 
 
+![jmeter interface](images/jmeterint.jpg)  
+
+The left hand side is where you create all the logic for your script with all the steps, on the right hand side is the details of all the different steps.
+
 - TEST PLAN (JMeter Script)
 - THREAD GROUP (thread = user)
 - SAMPLERS (makes a request)
@@ -43,12 +47,16 @@ Finally the browser executes javascript js and repeats. **JMETER** is an open so
 - ASSERTIONS (error checking)
 - PRE PROCESSORS (modify request)
 - POST PROCESSORS (parse the response)
-- LOGIC CONTROLLER 
+- LOGIC CONTROLLER (loops, if statements etd)
 - WORK BENCH (temp working space)
 
 
 
+# STATIC SCRIPT
 
+Now we will create a static script, first lets add a thread group from the menu.   
+
+![jmeter threadgroup](images/add.jpg)  
 
 
 <p align="center">
