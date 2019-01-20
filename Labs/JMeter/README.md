@@ -2,9 +2,8 @@
 
 ![jmeter icon](images/jmeter.jpg) 
 
-
-1. [What is performance Testing?](WHAT-IS-PERFORMANCE-TESTING)
-2. [JMETER interface](JMETER-INTERFACE)
+1. [What is performance Testing?](#WHAT-IS-PERFORMANCE-TESTING)
+2. [#JMETER interface](#JMETER-INTERFACE)
 3. [Creating a Simple Static Script]
 4. [Recording actual browser activity]
 5. [User Login & Authentication]
@@ -17,7 +16,7 @@
 
 Ensure user experience is fast and error free under any load.
 
-**How?**
+##How?##
 
 1. Create user load 
 2. Measure the user experience 
@@ -28,7 +27,9 @@ Finally the browser executes javascript js and repeats. **JMETER** is an open so
 
 1. JMeter sends a request *(http)*
 2. Server responds (with html resource)
-3. JMETER pareses response 
+3. JMETER pareses response  ~~and executes javascript~~
+
+
 # JMETER INTERFACE
 
 
