@@ -182,6 +182,21 @@ The list of all tutorials I have made can be found here:
 
 [Tutorials list](https://murchie85.github.io/#tutorials)
 
+## Adam McMurchie's GITHUB Walkthroughs 
+
+These may be worth trying, but best to be done on a personal machine.
+
+This links is best in the event you have a windows personal computer.
+
+[Jenkins and Powershell](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/JenkinsAutomation)
+
+The next two are best if you have python installed, the second one requires you to have a mac.
+
+[Processing Crypto Data using scripts](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/ProcessingCryptoData)
+[Python Automation](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/PythonAutomation)
+
+
+
 
 ## PLURALSIGHT 
 
