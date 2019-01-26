@@ -41,11 +41,16 @@ Use the learning resources section (and google) to help you produce answers on t
 - Explain how DevOps & CICD benefits a Tester.
 - Explain how DevOps practices & or CICD reduces risk in the software development lifecycle.
 - Be able to articulate the buisiness value of CICD, DevOps and Automation.
+- What does configuration management mean? 
+- Why are configuration management tools like Ansible, Chef and Puppet useful? Why do they save time? How do they reduce human error and increase consistancy?
 - Relate the 12 factors to DevOps principles.
 - List 3 or more technical tasks a DevOps engineer might carry out. 
 - List 3 or more business tasks a DevOps engineer might carry out. 
 - Describe the difference between scaling horizontally and scaling vertically
 - Explain why Jenkins (or other Orchastration tools) are so powerful? 
+- What is a VM? What makes it different from a server or a stand alone computer? 
+- What is a container? Why are they very useful for development, suggest a containerisation technology. 
+- Write in pseudocode (basic English) a script that would 
 
 
 ## SHARED OUTCOMES 
@@ -61,7 +66,7 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - What does it mean by treating your servers as cattle versus treating them as pets? 
 
 
-## ADVANCED SHARED OUTCOMES 
+## ADVANCED SHARED OUTCOMES (OPTIONAL)
 
 ### Networking 
 
@@ -83,6 +88,25 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - How is in flight data encrypted? 
 - Suggest methods of hardening a server
 
+### Architecture 
+
+Bonus points if you can explain these with drawings. 
+
+- How might you architect / design a highly available service? 
+- What does disaster recovery mean in IT infrastructure? How might you architect this (high level)
+- What does designing a fault tolerant infrastructure mean? What might that look like? 
+
+
+## Key Technologies to learn
+
+1. Scripting programs
+2. Orchastration tool (Jenkins)
+3. Configuration management tool 
+4. Scrum tools (JIRA & Confluence)
+5. SCM (Git/Jira)
+
+**Stretch** Data Visualization tools (Splunk, Elastic etc)
+
 
 # LEARNING RESOURCES
 
@@ -94,23 +118,52 @@ What makes DevOps so powerful and sought after a profession is the wide range of
 - Application Configuration
 - Tooling (selecting the best tools for the team to use)
 - Team Dashboarding (making a dashboard to centralise data visualization for the team)
-- CICD piepline (building a pipleine in Jenkins to deliver end to end)
+- CICD pipeline (building a pipeline in Jenkins to deliver end to end)
 
 
 Also crucially what differenciates a DevOps engineer from others is the close relation to business, so much so that DevOps engineers often have to think laterally as how to help solve problems from the following points of view:
 
-Scalability 
+### Scalability 
 Does this feature, product have the ability to grow to meet customer demand. A DevOps engineer solves this problem by building infrastructure that grows and shrinks as required.
+
+
+### HA (High Availability)
+
+Businesses require their services (applications) to be up at all times for customers, depending on the importance of the application tolerance can be from 2 hours down time to 0 second down time as being acceptible. 
+ Architecting a highly available infrastructure is 
+
+### Fault Tolerance
+
+ The business may have a low appetite when it comes to your application dealing with bugs and errors. In many instances applications simply fail
+
+### ThroughPut
+
+Some 
 
 
 ### HIGH LEVEL OVERVIEW OF DEVOPS 
 
+A brief article on DevOps
+
 [DevOps Overview](https://www.guru99.com/devops-tutorial.html)
 
-### BEST DEVOPS TOOLS AND TECH 2019 
+You **DEFINITELY** don't need to learn all of theses, just have a little browse to get the general idea and feel of what sort of things these tools may do.  
 
-You **DEFINITELY** don't need to learn all of theses, just have a little browse to get the general idea and feel of what sort of things these tools may do. 
 [DEVOPS2019](https://www.guru99.com/devops-tools.html)
+
+## Adam McMurchie's Tutorials 
+
+I also have created a series of tutorials on my personal website you may wish to look at, they vary in difficulty - however it may be worth skimming to understand at a high level the following tutorials: 
+
+[Building a rest API](https://murchie85.github.io/rest.html) 
+[Docker](https://murchie85.github.io/docker.html)
+[Jenkins on AWS](https://murchie85.github.io/jenkins.html)
+[Vagrant](https://murchie85.github.io/vagrant.html)
+
+
+The list of all tutorials I have made can be found here: 
+
+[Tutorials list](https://murchie85.github.io/#tutorials)
 
 
 ## PLURALSIGHT 
@@ -137,7 +190,7 @@ The core working practice behind DevOps is Agile Scrum, infact DevOps has some o
 *NOTE* Some of the below activities may not be possible on a Barclays machine, it is recommended you also try these on a personal laptop.
 
 
-## JENKINS 
+## JENKINS & SCRIPTING
 - Get access to jenkins, or install Jenkins on your personal machine. 
 - If you installed on a personal machine - add plugins, for example google `jenkins pipeline plugin` and add it to jenkins. **NOTE** do not do this step on the Barclays Jenkins instance. 
 - Create a Jenkins freestyle project
@@ -149,6 +202,8 @@ The core working practice behind DevOps is Agile Scrum, infact DevOps has some o
 - Connect those two jobs together so that when the first is run succesfully, the second automatically runs.
 - Write a third job to check this file location, if a new version is added then add this to a git/stash branch.
 - Obtain access to run command line arguments in Linux, Macos either via Work Computer or personal laptop. 
+- Create a Jenkins job that polls a Code repository in Stash or Git for a change, when there is a change have the job write 'Your repository has been changed!'
+- Amend the same job that polled the repo, to pull the code down locally.
 
 
 
@@ -180,9 +235,10 @@ To have this as a real useful website, I would need to **host** it so that the p
 
 # ADVANCED TECHNICAL OBJECTIVES (Optional)
 
-1. Set up Apache server on your personal computer
-2. Have the server host the html file you wrote above
-3. Change the port on which the server runs
+1. Write a webook (any kind but ideally one that does something when you push code to stash/git)
+2. Set up Apache server on your personal computer
+3. Have the server host the html file you wrote above
+4. Change the port on which the server runs
 
 
 # KEY BARCLAYS DELIVERY ITEM 
