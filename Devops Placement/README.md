@@ -32,12 +32,26 @@ LEARNING OUTCOMES
 
 Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. Along with the Delivery Objectives will be the foundation of your training. 
 
-- Understand DevOps from a high level 
-- Identify the key elements of CICD Delivery 
-- Describe key technologies that would be used at each point in CICD Delivery
-- Be able to arituculate the buisiness value of CICD, DevOps and Automation
-- Understand the 12 factor app - what does this mean? (Research required)
-- Relate the 12 factors to DevOps principles
+- Understand DevOps from a high level. 
+- Identify the key elements of CICD Delivery.
+- Describe key technologies that would be used at each point in CICD Delivery.
+- Explain how DevOps & CICD benefits a Developer.
+- Explain how DevOps & CICD benefits a Tester.
+- Explain how DevOps practices & or CICD reduces risk in the software development lifecycle.
+- Be able to articulate the buisiness value of CICD, DevOps and Automation.
+- Relate the 12 factors to DevOps principles.
+- List 3 or more technical tasks a DevOps engineer might carry out. 
+- List 3 or more business tasks a DevOps engineer might carry out. 
+
+## SHARED OUTCOMES 
+
+These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes 
+
+- Understand the 12 factor app - what does this mean? (Research required).
+- Understand Agile principles from a high level, what are the key differences between waterfall and Agile? 
+- Be able to articulate the 5 core Scrum ceremonies, Daily Standup, Sprint Planning, Sprint Retrospective, Sprint Demo and Sprint Backlog Refinement (grooming)
+- Explain clearly and simply, what does the following concepts mean: Scrum, Sprint, Stories, Epics, Velocity/
+- Demonstrate capability in using JIRA and Confluence 
 
 
 ## LEARNING RESOURCES 
