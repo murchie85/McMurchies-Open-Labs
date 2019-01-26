@@ -150,10 +150,14 @@ Businesses require their services (applications) to be up at all times for custo
 
 ### ThroughPut
 
-Some 
+Some applications for business care more about the ability to move high volumes of data, such as transaction processing. High throughput is a critical business interest. 
+
+### Monitoring and Metrics
+
+The business need to see how customers are interacting with the website, the app, how the applications are performing and get data to drive improvement. DevOps specialists achieve this by writing scripts to pull data, visualizing it in dashboards and so on.
 
 
-### HIGH LEVEL OVERVIEW OF DEVOPS 
+## LINKS & ARTICLES
 
 A brief article on DevOps
 
@@ -162,6 +166,7 @@ A brief article on DevOps
 You **DEFINITELY** don't need to learn all of theses, just have a little browse to get the general idea and feel of what sort of things these tools may do.  
 
 [DEVOPS2019](https://www.guru99.com/devops-tools.html)
+
 
 ## Adam McMurchie's Tutorials 
 
@@ -182,18 +187,22 @@ The list of all tutorials I have made can be found here:
 
 All Barclays employees have free access to Pluralsight, below are some links I strongly recommend working through.
 
+[DevOps the big picture](https://app.pluralsight.com/library/courses/devops-big-picture)
+[Linux Essential](https://app.pluralsight.com/library/courses/lfcs-linux-operation-essentials/table-of-contents)
+[Powershell Essentials - if you don't have Linux/Mac](https://app.pluralsight.com/library/courses/powershell-intro/table-of-contents)
+[Scripting intermediate](https://app.pluralsight.com/library/courses/bash-shell-scripting/table-of-contents)
+
+
+
+## THE PHOENIX PROJECT
+
+One of the best IT books you will ever read, very very popular in all areas of IT and a must for those looking to learn Agile and DevOps practices.
+
+[The Phoenix Project](https://itrevolution.com/wp-content/uploads/files/PhoenixProjectExcerpt.pdf)
+
 
 
 Devops can be thought of a combination of three main practices - People, Processes and Tools. Succesful automation and Operations require a combinatiton of the right DevOps culture, strong tooling and robust processes which helps both reduce impediments but protects the quality of features being released.
-
-
-### PEOPLE
-
-### PROCESS
-
-The core working practice behind DevOps is Agile Scrum, infact DevOps has some of the biggest successes with Agile. 
-
-### TOOLS
 
 
 
