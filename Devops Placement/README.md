@@ -64,6 +64,7 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - Demonstrate capability in using JIRA and Confluence 
 - Explain on a high level AD (active directory), LDAP 
 - What does it mean by treating your servers as cattle versus treating them as pets? 
+- What is an API? 
 
 
 ## ADVANCED SHARED OUTCOMES (OPTIONAL)
@@ -106,6 +107,17 @@ Bonus points if you can explain these with drawings.
 5. SCM (Git/Jira)
 
 **Stretch** Data Visualization tools (Splunk, Elastic etc)
+
+## Key Scripting to learn
+
+1. Curl commands (or windows equivalent)
+2. Regular Expressions
+3. Pipe (or windows equivalent)
+4. Echo/print/write output to console
+5. Echo/print/write output to file
+6. Read in file 
+7. Overwrite file and save
+8. Append to file and save
 
 
 # LEARNING RESOURCES
@@ -189,8 +201,15 @@ The core working practice behind DevOps is Agile Scrum, infact DevOps has some o
 
 *NOTE* Some of the below activities may not be possible on a Barclays machine, it is recommended you also try these on a personal laptop.
 
+## Pre-requisits 
 
-## JENKINS & SCRIPTING
+- Be able to write Curl commands 
+- Be able to execute powershell commands (if you don't have access to linux/mac) andBe able to write Invoke web request (same as curl)
+- Be able to use RegEx (regular expressions)
+
+
+## JENKINS & SCRIPTING  
+
 - Get access to jenkins, or install Jenkins on your personal machine. 
 - If you installed on a personal machine - add plugins, for example google `jenkins pipeline plugin` and add it to jenkins. **NOTE** do not do this step on the Barclays Jenkins instance. 
 - Create a Jenkins freestyle project
@@ -204,7 +223,8 @@ The core working practice behind DevOps is Agile Scrum, infact DevOps has some o
 - Obtain access to run command line arguments in Linux, Macos either via Work Computer or personal laptop. 
 - Create a Jenkins job that polls a Code repository in Stash or Git for a change, when there is a change have the job write 'Your repository has been changed!'
 - Amend the same job that polled the repo, to pull the code down locally.
-
+- Amend your very first jenkins job that displays `Hello Barclays`  to also pull information from a website using curl command. If it is windows, you will need to download powershell and do the equivalent command.
+- Have the Jenkins job say `Hello Barclays`  and also `The time is ` and add the time value that you pull in a curl command. I.e. your curl job should pull the time from a website or google page that displays it. 
 
 
 - Create a jenkins job to write some html to file, ensure that you can click on the file and open it: example html below. 
