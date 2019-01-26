@@ -27,7 +27,7 @@ Below are some suggestions to ensure that you have things to do throughout the d
 - Complete Learning Outcomes section
 - Complete Learning resources Section
 - Complete Delivery Outcomes 
-- Obtain access to some of the tools which can be done in short time - speak to Hurriyet, Myself and Mani to ascertain which ones they are. 
+- Obtain access to the tools which won't take long to get access to - speak to Hurriyet, Myself and Mani to ascertain which ones they are. 
 - Read through Fusion portal and DevOps sharepoint to become aquatinted with our department
 
 # LEARNING OUTCOMES
@@ -60,6 +60,8 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - What does it mean by treating your servers as cattle versus treating them as pets? 
 
 ## ADVANCED SHARED OUTCOMES 
+
+### Networking 
 
 1. Explain the client server model (draw the star, Line, Ring model discuss advantages and disadvantages of them)
 2. What would you recommend as the best Client Server model and why?
@@ -120,6 +122,8 @@ The core working practice behind DevOps is Agile Scrum, infact DevOps has some o
 
 *NOTE* Some of the below activities may not be possible on a Barclays machine, it is recommended you also try these on a personal laptop.
 
+
+## JENKINS 
 - Get access to jenkins, or install Jenkins on your personal machine. 
 - If you installed on a personal machine - add plugins, for example google `jenkins pipeline plugin` and add it to jenkins. **NOTE** do not do this step on the Barclays Jenkins instance. 
 - Create a Jenkins freestyle project
@@ -152,6 +156,25 @@ To have this as a real useful website, I would need to **host** it so that the p
 
 - Make sure the file is saved as index.html (why do you think the html affix matters? )
 
+
+## [Difficult] Configuration Management Ansible / Chef
+
+- Install either on your personal machine
+- Write a simple playbook/cook book 
+
+
+
 # ADVANCED TECHNICAL OBJECTIVES (Optional)
 
-1. Set up Apache server on your personal computer 
+1. Set up Apache server on your personal computer
+2. Have the server host the html file you wrote above
+3. Change the port on which the server runs
+
+
+# KEY BARCLAYS DELIVERY ITEM 
+
+Note this task is very difficult, but it would result in a tangible and very useful deliverable feature for the DevOps team and the bank. As this is a problem we are struggling to implement, but by no means define your learning on the ability to complete the below objective. It should be treated as a stretch goal. 
+
+## OBJECTIVE STRETCH GOAL
+
+Using the knowledge you have obtained from Jenkins, Scripting and Configuration management (using Chef/Ansible) set up a jenkins job to use Ansible (easier) or Chef (harder - but preferred by the bank) to execute restart of applications on Dev servers in Barclays.  
