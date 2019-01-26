@@ -57,7 +57,9 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - Be able to articulate the 5 core Scrum ceremonies, Daily Standup, Sprint Planning, Sprint Retrospective, Sprint Demo and Sprint Backlog Refinement (grooming)
 - Explain clearly and simply, what does the following concepts mean: Scrum, Sprint, Stories, Epics, Velocity/
 - Demonstrate capability in using JIRA and Confluence 
+- Explain on a high level AD (active directory), LDAP 
 - What does it mean by treating your servers as cattle versus treating them as pets? 
+
 
 ## ADVANCED SHARED OUTCOMES 
 
@@ -68,6 +70,18 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 3. Explain TCP/IP model 
 4. Why do you have to configure ports for an application that you run on your machine.
 
+### Cloud 
+
+- Be able to explain why Cloud may be useful to the bank? 
+- Describe the difference between public and private cloud? Which one would the bank prefer? What are the trade offs?
+- Describe in detail the differences between SAAS, PAAS AND IAAS. What do you think would be the best option for the bank? 
+- Cloud has some key terms, Compute, IAM, 
+
+###  Security 
+
+- How is data encrypted at rest? 
+- How is in flight data encrypted? 
+- Suggest methods of hardening a server
 
 
 # LEARNING RESOURCES
