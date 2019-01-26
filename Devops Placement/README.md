@@ -40,17 +40,26 @@ Use the learning resources section (and google) to help you produce answers on t
 - Explain how DevOps & CICD benefits a Developer.
 - Explain how DevOps & CICD benefits a Tester.
 - Explain how DevOps practices & or CICD reduces risk in the software development lifecycle.
-- Be able to articulate the buisiness value of CICD, DevOps and Automation.
+- Be able to articulate the business value of CICD, DevOps and Automation.
 - What does configuration management mean? 
 - Why are configuration management tools like Ansible, Chef and Puppet useful? Why do they save time? How do they reduce human error and increase consistancy?
 - Relate the 12 factors to DevOps principles.
 - List 3 or more technical tasks a DevOps engineer might carry out. 
 - List 3 or more business tasks a DevOps engineer might carry out. 
 - Describe the difference between scaling horizontally and scaling vertically
-- Explain why Jenkins (or other Orchastration tools) are so powerful? 
+- Explain why Jenkins (or other orchestration tools) are so powerful? 
 - What is a VM? What makes it different from a server or a stand alone computer? 
-- What is a container? Why are they very useful for development, suggest a containerisation technology. 
-- Write in pseudocode (basic English) a script that would 
+- What is a container? Why are they very useful for development, suggest a containerisation technology.
+- Understand Scripting and be able to write basic scripts
+- Understand Json, Key value pairs and be able to script a program that pulls a value from a key 
+- Write in pseudocode (basic English) a script that would: 
+
+```
+1. parse a JSON file for a key value pair i.e. cost: £2.20
+2. Append that value to second file
+3. print to console the full contents of the second file 
+```
+- Explain how this funamental script could be translated/modified to extract log files, why is this useful? 
 
 
 ## SHARED OUTCOMES 
@@ -122,7 +131,7 @@ Bonus points if you can explain these with drawings.
 
 # LEARNING RESOURCES
 
-What makes DevOps so powerful and sought after a profession is the wide range of skills required. A DevOps specialist must have degrees of experience with - Development, Testing (functional and Quality), Operations, Systems Administration and more. This is because as a DevOps specialist you are responsible for the underlying infrastructure which those Dev, testing and others run on. Duties can invole any of the following and more: 
+What makes DevOps so powerful and sought after a profession is the wide range of skills required. A DevOps specialist must have degrees of experience with - Development, Testing (functional and Quality), Operations, Systems Administration and more. This is because as a DevOps specialist you are responsible for the underlying infrastructure which those Dev, testing and others run on. Duties can involve any of the following and more: 
 
 - Scripting 
 - Automation
@@ -133,7 +142,7 @@ What makes DevOps so powerful and sought after a profession is the wide range of
 - CICD pipeline (building a pipeline in Jenkins to deliver end to end)
 
 
-Also crucially what differenciates a DevOps engineer from others is the close relation to business, so much so that DevOps engineers often have to think laterally as how to help solve problems from the following points of view:
+Also crucially what differentiates a DevOps engineer from others is the close relation to business, so much so that DevOps engineers often have to think laterally as how to help solve problems from the following points of view:
 
 ### Scalability 
 Does this feature, product have the ability to grow to meet customer demand. A DevOps engineer solves this problem by building infrastructure that grows and shrinks as required.
@@ -172,10 +181,13 @@ You **DEFINITELY** don't need to learn all of theses, just have a little browse 
 
 I also have created a series of tutorials on my personal website you may wish to look at, they vary in difficulty - however it may be worth skimming to understand at a high level the following tutorials: 
 
-[Building a rest API](https://murchie85.github.io/rest.html) 
-[Docker](https://murchie85.github.io/docker.html)
-[Jenkins on AWS](https://murchie85.github.io/jenkins.html)
-[Vagrant](https://murchie85.github.io/vagrant.html)
+- [Building a rest API](https://murchie85.github.io/rest.html)  
+
+- [Docker](https://murchie85.github.io/docker.html)  
+
+- [Jenkins on AWS](https://murchie85.github.io/jenkins.html)  
+
+- [Vagrant](https://murchie85.github.io/vagrant.html)  
 
 
 The list of all tutorials I have made can be found here: 
@@ -192,8 +204,10 @@ This links is best in the event you have a windows personal computer.
 
 The next two are best if you have python installed, the second one requires you to have a mac.
 
-[Processing Crypto Data using scripts](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/ProcessingCryptoData)
-[Python Automation](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/PythonAutomation)
+[Processing Crypto Data using scripts](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/ProcessingCryptoData)  
+
+[Python Automation](https://github.com/murchie85/McMurchies-Open-Labs/tree/master/Labs/PythonAutomation)  
+
 
 
 
@@ -242,7 +256,7 @@ Devops can be thought of a combination of three main practices - People, Process
 - Write a second job to move that file from one location to another 
 - Have the second job, check if the file exists in the destination location. If it does, rename the new file as the filenameVersion1.1
 - Each time increment the new file name by 0.1 (hint - make the final filename a combination of two variables $filename & $fileversion, the $fileversion is a number that gets incremented).
-- Connect those two jobs together so that when the first is run succesfully, the second automatically runs.
+- Connect those two jobs together so that when the first is run successfully, the second automatically runs.
 - Write a third job to check this file location, if a new version is added then add this to a git/stash branch.
 - Obtain access to run command line arguments in Linux, Macos either via Work Computer or personal laptop. 
 - Create a Jenkins job that polls a Code repository in Stash or Git for a change, when there is a change have the job write 'Your repository has been changed!'
