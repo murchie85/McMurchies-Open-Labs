@@ -8,7 +8,9 @@
 ## Contents
 
 1. [Schedule of Activities](#TEMPLATE-SCHEDULE-OF-ACTIVITIES) | 
-2. [LEARNING RESOURCES](#LEARNING-RESOURCES)
+2. [Learning Outcomes](#LEARNING-OUTCOMES)
+3. [Learning Resources](#LEARNING-RESOURCES) |
+4. [Delivery Objectives](#DELIVERY-OBJECTIVES )
 
  Welcome to the DevOps team - this article is designed to help provide you with some useful guidelines on learning the ins and outs of DevOps. 
 
@@ -28,7 +30,7 @@ Below are some suggestions to ensure that you have things to do throughout the d
 - Obtain access to some of the tools which can be done in short time - speak to Hurriyet, Myself and Mani to ascertain which ones they are. 
 - Read through Fusion portal and DevOps sharepoint to become aquatinted with our department
 
-LEARNING OUTCOMES 
+# LEARNING OUTCOMES
 
 Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. Along with the Delivery Objectives will be the foundation of your training. 
 
@@ -54,7 +56,7 @@ These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes
 - Demonstrate capability in using JIRA and Confluence 
 
 
-## LEARNING RESOURCES 
+# LEARNING RESOURCES
 
 What makes DevOps so powerful and sought after a profession is the wide range of skills required. A DevOps specialist must have degrees of experience with - Development, Testing (functional and Quality), Operations, Systems Administration and more. This is because as a DevOps specialist you are responsible for the underlying infrastructure which those Dev, testing and others run on. Duties can invole any of the following and more: 
 
@@ -92,23 +94,16 @@ All Barclays employees have free access to Pluralsight, below are some links I s
 Devops can be thought of a combination of three main practices - People, Processes and Tools. Succesful automation and Operations require a combinatiton of the right DevOps culture, strong tooling and robust processes which helps both reduce impediments but protects the quality of features being released.
 
 
-PEOPLE
+### PEOPLE
 
-PROCESS
+### PROCESS
 
 The core working practice behind DevOps is Agile Scrum, infact DevOps has some of the biggest successes with Agile. 
 
-
-TOOLS
-
+### TOOLS
 
 
 
-
-
-
-
-
-DELIVERY OBJECTIVES 
+# DELIVERY OBJECTIVES
 
 - Get access to jenkins 
