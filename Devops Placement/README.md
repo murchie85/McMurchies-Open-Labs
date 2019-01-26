@@ -216,13 +216,18 @@ The next two are best if you have python installed, the second one requires you 
 
 All Barclays employees have free access to Pluralsight, below are some links I strongly recommend working through.
 
-[DevOps the big picture](https://app.pluralsight.com/library/courses/devops-big-picture)
-[Linux Essential](https://app.pluralsight.com/library/courses/lfcs-linux-operation-essentials/table-of-contents)
-[Powershell Essentials - if you don't have Linux/Mac](https://app.pluralsight.com/library/courses/powershell-intro/table-of-contents)
-[Scripting intermediate](https://app.pluralsight.com/library/courses/bash-shell-scripting/table-of-contents)
+1. [DevOps the big picture](https://app.pluralsight.com/library/courses/devops-big-picture)  
 
+2. [Linux Essential](https://app.pluralsight.com/library/courses/lfcs-linux-operation-essentials/table-of-contents)  
 
+3. [Powershell Essentials - if you don't have Linux/Mac](https://app.pluralsight.com/library/courses/powershell-intro/table-of-contents)  
 
+4. [Scripting intermediate](https://app.pluralsight.com/library/courses/bash-shell-scripting/table-of-contents)
+
+## OPTIONAL 
+
+An introduction to Cloud computing. [Cloud Fundamentals](https://app.pluralsight.com/library/courses/cloud-computing-fundamentals/table-of-contents)
+ 
 ## THE PHOENIX PROJECT
 
 One of the best IT books you will ever read, very very popular in all areas of IT and a must for those looking to learn Agile and DevOps practices.
@@ -284,7 +289,9 @@ To have this as a real useful website, I would need to **host** it so that the p
 - Make sure the file is saved as index.html (why do you think the html affix matters? )
 
 
-## [Difficult] Configuration Management Ansible / Chef
+## Configuration Management Ansible / Chef
+
+**DIFFICULT**  
 
 - Install either on your personal machine
 - Write a simple playbook/cook book 
