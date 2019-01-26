@@ -11,6 +11,7 @@
 2. [Learning Outcomes](#LEARNING-OUTCOMES) |
 3. [Learning Resources](#LEARNING-RESOURCES) |
 4. [Delivery Objectives](#DELIVERY-OBJECTIVES ) |
+5. [Stretch Goal](#OBJECTIVE-STRETCH-GOAL) |
 
  Welcome to the DevOps team - this article is designed to help provide you with some useful guidelines on learning the ins and outs of DevOps. This is a dynamic document and will be updated as new topics arise with new features to work on. This also features some shared objectives that can be mapped to Ed Fulda's outcomes. 
 
