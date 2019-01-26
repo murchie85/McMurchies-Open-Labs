@@ -2,7 +2,7 @@
 # DevOps Placement Guidelines
 
 
-![DevOps Logo](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiWgqbDuIvgAhXd6OAKHao_B0YQjRx6BAgBEAU&url=https%3A%2F%2Fwww.xactplacements.co.uk%2Fwhat-is-devops-a-recruiters-perspective%2F&psig=AOvVaw1Af5dVcqGHhjd2lhmxU06f&ust=1548591840700088)
+![DevOps Logo](https://www.xactplacements.co.uk/wp-content/uploads/2018/03/DevOps.jpg)
 
 
 [Schedule of Activities](#TEMPLATE-SCHEDULE-OF-ACTIVITIES)
