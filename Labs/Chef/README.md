@@ -30,6 +30,7 @@ A quick break down of chef basics, if you just started - skip this section to in
 ### KEY TERMS 
 
 - Recipe - a YAML list of commands for chef to execute
+- Runlist a collection of recipes you wish to run
 - Resource essentially a line command in a recipe, but it describes a part of the target system and what state you want it to be in. Hence 'resource' - personally I find this a bit confusing. 
 - Cookbook - the folder structure for a chef project
 - Knife chef management commands
