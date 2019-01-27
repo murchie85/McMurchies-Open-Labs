@@ -28,25 +28,25 @@ Below are some suggestions to ensure that you have things to do throughout the d
 - Complete Learning Outcomes section
 - Complete Learning resources Section
 - Complete Delivery Outcomes 
-- Obtain access to the tools which won't take long to get access to - speak to Hurriyet, Myself and Mani to ascertain which ones they are. 
+- Set up access to confluence, Jira and DevOps tools (the ones which don't require RTB or large amounts of time) - speak to Hurriyet, Myself and Mani to ascertain which ones they are. 
 - Read through Fusion portal and DevOps sharepoint to become aquatinted with our department
 
 # LEARNING OUTCOMES
 
-Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. This is designed to give you a significant advantage in landing a desirable DevOps role, by preparing you for typical interview type questions, or questions that would be asked of a DevOps engineer by Stakeholders, Business or other functional teams. 
+Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. This is designed to give you a **significant advantage** in landing a desirable DevOps role, by preparing you for typical interview type questions, or questions that would be asked of a DevOps engineer by Stakeholders, Business or other functional teams. 
 
-Along with the Delivery Objectives this will be the foundation of your training. 
+Along with the Delivery Objectives these learning outcomes will form the foundation of your training. 
 
 - Understand DevOps from a high level. 
 - Identify the key elements of CICD Delivery.
-- Describe key technologies that would be used at each point in CICD Delivery.
+- Describe key technologies/tools that would be used at each point in CICD Delivery.
 - Explain how DevOps & CICD benefits a Developer.
 - Explain how DevOps & CICD benefits a Tester.
 - Explain how DevOps practices & or CICD reduces risk in the software development lifecycle.
 - Be able to articulate the business value of CICD, DevOps and Automation.
 - What does configuration management mean? 
 - Why are configuration management tools like Ansible, Chef and Puppet useful? Why do they save time? How do they reduce human error and increase consistancy?
-- Relate the 12 factors to DevOps principles.
+- Relate the 12 factor app (google this one) to DevOps principles.
 - List 3 or more technical tasks a DevOps engineer might carry out. 
 - List 3 or more business tasks a DevOps engineer might carry out. 
 - Describe the difference between scaling horizontally and scaling vertically
