@@ -112,7 +112,7 @@ The following flags are `-it` to start an interactive session and provides a ter
 - Now lets make a recipe called `lamp.rb` that produces a file with some text in it  
 
 ```
-file '/tmp/motd' do
+file '/tmp/lamp' do
   content 'I love lamp'
 end
 ```
@@ -126,7 +126,7 @@ Lets confirm this by printing the output of the file :
 
 `more /tmp/lamp`
 
-You should see the output `I love lamp` printed to screen. Ok lets run the above command again, notice how it says 'up to date' - chef wont change if the target is in the desired state already. Lets make a little change and run it again, change the text to say 'I love chocolate' and run the command again:
+You should see the output `I love lamp` printed to screen. Ok lets run the above command again, notice how it says 'up to date' - chef wont change if the target is in the desired state already. Lets make a little change and run it again, change the text to say `I love chocolate` and run the command again:
 
 `chef-client --local-mode lamp.rb`  
 
@@ -135,5 +135,39 @@ Lets view the output to confirm state has indeed been updated :
 
 
 `chef-client --local-mode lamp.rb`  
+
+
+Ok so far, it is like we are just running a script. However what would happen if someone over wrote the file? Run the command below: 
+
+`echo 'I love pineapple' > /tmp/lamp`
+
+if you view the file `more /tmp/lamp/` we will see the message about pineapple as expected. So the file (end configuration state) may get changed by others. Lets run the chef command again to revert it's state: 
+
+`chef-client --local-mode lamp.rb`
+
+
+Now chef has restored the configuration to how you wanted it, sure this seems overly simple - it is just a bit of text afterall. But as your recipe grows, it will include editing of YAML, manifest, JSON and other configuration files. Including setting users, groups, server configurations and so on. When you consider all these things, it would be far to hard to keep on top off or automate with a python/bash script. This is the power of chef - each time it runs, it sets the configuration exactly to how you wish it. 100% machine provisioning.   
+
+Now lets get rid of the file in chef fasion (you will see why this is useful in a minute), create a file (recipe) called `sayonara.rb` and give it the following: 
+
+```
+file '/tmp/lamp' do
+  action :delete
+end
+```
+
+Now execute the new recipe:
+
+`chef-client --local-mode sayonara.rb`  
+
+Notices that the file is gone? You can check by running `more /tmp/lamp` it should say the file is gone.  
+
+But wait! We have the previous configuration already templated, so we can restore the file just by running the first recipe again :
+
+`chef-client --local-mode lamp.rb`
+
+
+OK, I think you have the hang of it, go ahead and verify the file is there, then run the sayonara recipe to banish it to the trashcan. You are all done here - good job! 
+
 
 
