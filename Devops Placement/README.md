@@ -48,7 +48,7 @@ Along with the Delivery Objectives these learning outcomes will form the foundat
 - Why are configuration management tools like Ansible, Chef and Puppet useful? Why do they save time? How do they reduce human error and increase consistancy?
 - Relate the 12 factor app (google this one) to DevOps principles.
 - List 3 or more technical tasks a DevOps engineer might carry out. 
-- List 3 or more business tasks a DevOps engineer might carry out. 
+- List 3 or more business related tasks a DevOps engineer might carry out - or tasks which you can justify direct business benefit.
 - Describe the difference between scaling horizontally and scaling vertically
 - Explain why Jenkins (or other orchestration tools) are so powerful? 
 - What is a VM? What makes it different from a server or a stand alone computer? 
@@ -63,16 +63,19 @@ Along with the Delivery Objectives these learning outcomes will form the foundat
 3. print to console the full contents of the second file 
 ```
 - Explain how this funamental script could be translated/modified to extract log files, why is this useful? 
+- (Difficult) what sort of things would you expect in an application log? 
 
 
 ## SHARED OUTCOMES 
 
 These Outcomes are linked to Ed Fulda's CSO Analytics Outcomes 
 
+- Understand from a general/high level what a webserver is   
+- Understand from a general/high level what an application server is  
 - Understand the 12 factor app - what does this mean? (Research required).
 - Understand Agile principles from a high level, what are the key differences between waterfall and Agile? 
 - Be able to articulate the 5 core Scrum ceremonies, Daily Standup, Sprint Planning, Sprint Retrospective, Sprint Demo and Sprint Backlog Refinement (grooming)
-- Explain clearly and simply, what does the following concepts mean: Scrum, Sprint, Stories, Epics, Velocity/
+- Explain clearly and simply, what does the following concepts mean: Scrum, Sprint, Stories, Epics, Velocity.
 - Demonstrate capability in using JIRA and Confluence 
 - Explain on a high level AD (active directory), LDAP 
 - What does it mean by treating your servers as cattle versus treating them as pets? 
