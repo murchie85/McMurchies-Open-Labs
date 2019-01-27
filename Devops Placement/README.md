@@ -33,7 +33,9 @@ Below are some suggestions to ensure that you have things to do throughout the d
 
 # LEARNING OUTCOMES
 
-Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. Along with the Delivery Objectives will be the foundation of your training. 
+Use the learning resources section (and google) to help you produce answers on the following questions. You will be asked throughout the placement on those topics to assess your understanding. This is designed to give you a significant advantage in landing a desirable DevOps role, by preparing you for typical interview type questions, or questions that would be asked of a DevOps engineer by Stakeholders, Business or other functional teams. 
+
+Along with the Delivery Objectives this will be the foundation of your training. 
 
 - Understand DevOps from a high level. 
 - Identify the key elements of CICD Delivery.
