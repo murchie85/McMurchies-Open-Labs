@@ -4,16 +4,27 @@
 
 ## TOPICS COVERED 
 
-1. [CHEF-BASICS](#BASICS)
-2. [INSTALL-DOCKER](#INSTALLING-DOCKER)
-3. [INSTALLING CHEF](#INSTALLING-CHEF)
-4. [CREATE A RECIPE](#CREATE-A-RECIPE)
-5. [RESOURCE COMMANDS](#RESOURCE-COMMANDS )
+1. [INTRODUCTION](#INTRODUCTION)
+2. [CHEF-BASICS](#BASICS)
+3. [INSTALL-DOCKER](#INSTALLING-DOCKER)
+4. [INSTALLING CHEF](#INSTALLING-CHEF)
+5. [CREATE A RECIPE](#CREATE-A-RECIPE)
+6. [RESOURCE COMMANDS](#RESOURCE-COMMANDS )
+
+
+
+## INTRODUCTION
+
+Chef is a very powerful configuration management tool, this means you can essentially write a script (recipe) which defines the state of a target server. This can include what the configuration files will contain, which groups are available, users, accesses, server configurations and so on.  This is powerful because the recipe you create can ensure your system is kept in the desired state, it also means you can share the recipe with others and your work becomes instantly reusable. Also chef has a suite of additional functions like post configuration testing, to ensure compliance or automation dashboarding and more.  
+
+ In this tutorial I will walk you through getting started with Chef, how to configure a docker container to practice chef in isolation, file manipulation, deploying a webserver and more. If you are new, skip strait to the Installing Docker section.
 
 
 ## BASICS
 
-A quick break down of chef basics to be updated as document grows. 
+**NOTE** skip this secton if you are just starting. 
+
+A quick break down of chef basics, if you just started - skip this section to install docker (the beginning of the tutorial.)
 
 ### KEY TERMS 
 
@@ -98,7 +109,7 @@ Linux and macOS `docker run -it -v $(pwd):/root/chef-repo -p 8100:80 centos:7 /b
 Windows `docker run -it -v ${pwd}:/root/chef-repo -p 8100:80 centos:7 /bin/bash`   
 
 
-The following flags are `-it` to start an interactive session and provides a terminal. `-v` mounts a virtual directory that relates to your machines current dir, but will be called chef-repo in the container. `-p` is a port mapping, your computers port 8100 will be mapped to the containers internal port 80. Port mapping is good so you can use chef from your machine to orchastrate your container without needing to ssh in.
+The following flags are `-it` to start an interactive session and provides a terminal. `-v` mounts a virtual directory that relates to your machines current dir, but will be called chef-repo in the container. `-p` is a port mapping, your computers port 8100 will be mapped to the containers internal port 80. Port mapping is good as this means you can access a server runnign inside your container by hitting the port 8100, which will route you to containers port 80.
 
 ## INSTALLING CHEF
 
@@ -176,7 +187,82 @@ But wait! We have the previous configuration already templated, so we can restor
 `chef-client --local-mode lamp.rb`
 
 
-OK, I think you have the hang of it, go ahead and verify the file is there, then run the sayonara recipe to banish it to the trashcan. You are all done here - good job! 
+OK, I think you have the hang of it, go ahead and verify the file is there, then run the sayonara recipe to banish it to the trashcan. You are all done here - time to move on good job! 
+
+
+
+
+## DEPLOYING A WEBSERVER
+
+Now its time to get serious! Lets use Chef to deploy, configure and enrich a webserver to host a website (albeit a rather simple one).  
+
+From the same docker container create a file called `mywebserver.rb` and add the following :
+
+`package 'httpd'`
+
+The `:install` command is done by default and not required. Lets boot up the webserver: 
+
+`chef-client --local-mode webserver.rb`
+
+ Since we are in root, which we set up - there for we don't need extra permissions. 
+
+ Ok now lets add a bit of code to the file to start the web server automatically, we need to specify the `start_command` additionally due to the image limitations.
+
+```
+
+package 'httpd'
+
+service 'httpd' do
+  action :start
+  start_command '/usr/sbin/httpd -k start'
+end
+
+
+```
+
+Don't forget to run the chef-client command to start it : 
+
+`chef-client --local-mode webserver.rb`  
+
+Cool, it starts - but how can we test it? Lets add some simple HTMl so we can verify by hitting the page. 
+
+```
+
+package 'httpd'
+
+service 'httpd' do
+  action :start
+  start_command '/usr/sbin/httpd -k start'
+end
+
+file '/var/www/html/index.html' do
+  content '<html>
+  <body>
+    <h1>I love chocolate... really!</h1>
+  </body>
+</html>'
+end
+
+```
+
+
+
+Don't forget to apply the change :
+
+`chef-client --local-mode webserver.rb`
+
+We have now created the home page, by adding the index file to the right location we can now view it by running a curl command.
+
+```
+curl localhost
+```
+
+You should see the html displayed, but remember we have port forwarding out to our external listening port 8100, so lets go check it out! 
+
+From any browser just go to `http://localhost:8100` and you should see the message! 
+
+So in summary for this section, we installed a webserver, configured it to start and configured a splash page. If you were to run this on 5 servers, that reduces the time to develop by 5 and maybe more!
+
 
 
 ### RESOURCE COMMANDS 
@@ -223,6 +309,24 @@ file '/my/file/locaiton/name' do
   action :delete
 end
 ```
+
+```
+## start service 
+
+service 'httpd' do
+  action :start
+end
+
+
+## start service and specify the start command
+service 'httpd' do
+  action :start
+  start_command '/usr/sbin/httpd -k start'
+end
+
+```
+
+
 
 ```
 ### ADVANCED 
