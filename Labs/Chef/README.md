@@ -6,6 +6,9 @@
 
 1. [CHEF-BASICS](#BASICS)
 2. [INSTALL-DOCKER](#INSTALLING-DOCKER)
+3. [INSTALLING CHEF](#INSTALLING-CHEF)
+4. [CREATE A RECIPE](#CREATE-A-RECIPE)
+5. [RESOURCE COMMANDS](#RESOURCE-COMMANDS )
 
 
 ## BASICS
@@ -77,7 +80,7 @@ knife role from file <filename>
 
 
 ## INSTALLING DOCKER
-
+[!docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
 In order to best leverage Chef without causing any long lasting damage on your machine (by deleting or uninstalling things) - it is best to use docker which is a bloat free self contained VM known as a container. 
 
@@ -97,7 +100,7 @@ Windows `docker run -it -v ${pwd}:/root/chef-repo -p 8100:80 centos:7 /bin/bash`
 
 The following flags are `-it` to start an interactive session and provides a terminal. `-v` mounts a virtual directory that relates to your machines current dir, but will be called chef-repo in the container. `-p` is a port mapping, your computers port 8100 will be mapped to the containers internal port 80. Port mapping is good so you can use chef from your machine to orchastrate your container without needing to ssh in.
 
-
+## INSTALLING CHEF
 
 - First lets ssh in and install chef to run some jobs   
 
@@ -109,6 +112,11 @@ The following flags are `-it` to start an interactive session and provides a ter
 - Lets install nano so we can edit files  
 
 `yum install nano`  
+
+
+## CREATE A RECIPE 
+
+[!RECIPE](https://hips.hearstapps.com/del.h-cdn.co/assets/18/06/1600x800/landscape-1517928338-delish-mongolian-ramen-and-meatballs-still001.jpg)
 
 - Now lets make a recipe called `lamp.rb` that produces a file with some text in it  
 
@@ -171,7 +179,7 @@ But wait! We have the previous configuration already templated, so we can restor
 OK, I think you have the hang of it, go ahead and verify the file is there, then run the sayonara recipe to banish it to the trashcan. You are all done here - good job! 
 
 
-### BASIC RESOURCE COMMANDS 
+### RESOURCE COMMANDS 
 
 ```
 
