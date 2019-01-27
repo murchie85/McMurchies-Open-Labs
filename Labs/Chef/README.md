@@ -15,8 +15,9 @@ A quick break down of chef basics to be updated as document grows.
 ### KEY TERMS 
 
 - Recipe - a YAML list of commands for chef to execute
+- Resource essentially a line command in a recipe, but it describes a part of the target system and what state you want it to be in. Hence 'resource' - personally I find this a bit confusing. 
 - Cookbook - the folder structure for a chef project
-- Knife
+- Knife chef management commands
 
 ### BASIC INFO
 
@@ -168,6 +169,75 @@ But wait! We have the previous configuration already templated, so we can restor
 
 
 OK, I think you have the hang of it, go ahead and verify the file is there, then run the sayonara recipe to banish it to the trashcan. You are all done here - good job! 
+
+
+### BASIC RESOURCE COMMANDS 
+
+```
+
+## EXECUTE A LINE COMMAND 
+
+execute 'mkdir newfolder'
+```
+
+```
+## CREATE PACKAGE 
+
+package 'java-1.7.0-openjdk-devel'
+```
+
+```
+## ADD GROUP
+
+group 'MYGROUP'
+```
+
+
+```
+## ADD USER
+
+user 'MYUSER'
+```
+
+```
+## CREATE FILE 
+
+file '/my/file/locaiton/name'  do
+  content 'I love lamp'
+end
+```
+
+
+```
+## DELETE FILE
+
+file '/my/file/locaiton/name' do
+  action :delete
+end
+```
+
+```
+### ADVANCED 
+
+### ADD GROUP TO DIR 
+
+directory '/opt/tomcat' do
+  action :create
+  group 'tomcat'
+end
+
+
+# sudo useradd -M -s /bin/nologin -g tomcat -d /opt/tomcat tomcat
+# USER ADD FLAGS
+# -M Don't create home -s shell -g  group name -d home directory (/opt/tomcat)  tomcat=loginName
+
+user 'tomcat' do 
+  manage_home false
+  shell '/bin/nologin'
+  group 'tomcat'
+  home '/opt/tomcat'
+end
+```
 
 
 
