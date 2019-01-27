@@ -80,7 +80,7 @@ knife role from file <filename>
 
 
 ## INSTALLING DOCKER
-[!docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
+![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
 In order to best leverage Chef without causing any long lasting damage on your machine (by deleting or uninstalling things) - it is best to use docker which is a bloat free self contained VM known as a container. 
 
@@ -116,7 +116,7 @@ The following flags are `-it` to start an interactive session and provides a ter
 
 ## CREATE A RECIPE 
 
-[!RECIPE](https://hips.hearstapps.com/del.h-cdn.co/assets/18/06/1600x800/landscape-1517928338-delish-mongolian-ramen-and-meatballs-still001.jpg)
+![RECIPE](https://hips.hearstapps.com/del.h-cdn.co/assets/18/06/1600x800/landscape-1517928338-delish-mongolian-ramen-and-meatballs-still001.jpg)
 
 - Now lets make a recipe called `lamp.rb` that produces a file with some text in it  
 
