@@ -11,7 +11,6 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 [Build a python webserver with Flask](Labs/Flask/README.md) |   
 [Learn Tomcat hands on](Labs/Tomcat/README.md) |   
 [Configuration Management with Chef & Docker](Labs/Chef/README.md) |   
-
 [React Fundamentals](Labs/REACT/README.md) |   
 [TDD Test Driven Development with JAVA](Labs/JAVATDD/README.md)) |  
 [ProcessingCryptoData with Python](Labs/ProcessingCryptoData/README.md) |    
