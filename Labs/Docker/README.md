@@ -5,6 +5,7 @@
 ## TOPICS COVERED 
 
 1. [INTRODUCTION](#INTRODUCTION)
+1. [Creating a Docker Container](#Creating-a-Docker-Container)
 
 
 ## INTRODUCTION
