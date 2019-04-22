@@ -5,7 +5,10 @@
 ## TOPICS COVERED 
 
 1. [INTRODUCTION](#INTRODUCTION)
-1. [Creating a Docker Container](#Creating-a-Docker-Container)
+2. [CREATING A CONTAINER](#CREATING-A-CONTAINER)
+3. [List of Terms](#LIST-OF-TERMS)
+4. [BUILDING YOUR FIRST DOCKER APP](#BUILDING-YOUR-FIRST-DOCKER-APP)
+5. [CONCLUSION](#CONCLUSION)
 
 
 ## INTRODUCTION
@@ -30,7 +33,7 @@ Docker works on the principle of **Containers**  these are like VMs but are even
 The infrastructure compromise that Docker employs means your conatiner (thus your app) starts up in seconds rather than mintute, use fewer resources, disk space and less memory.
  
 
-## Creating a Docker Container 
+## CREATING A CONTAINER
 
 ![docker flow ](https://cdn-images-1.medium.com/max/1200/1*joAfS_1sBhCOJzJuaAzzeg.png)
 
@@ -41,7 +44,7 @@ Simply put the steps for creating your container (which hosts your app) are :
 3. Run image as a container
 
 
-## List of Terms 
+## LIST OF TERMS 
 
 **Dockerfile** an image that contains a list of steps required to create an image  
 
@@ -49,7 +52,7 @@ Simply put the steps for creating your container (which hosts your app) are :
 
 **Container** This is an instance of your image that can be started, stopped or destroyed. You can make multiple containers from one image (i.e. run multiple application instances for scaling)
 
-## Building your first Docker App
+## BUILDING YOUR FIRST DOCKER APP
 
 At anytime if you get stuck, just look into the `hi-docker` folder next to this README.md file for reference.
 
@@ -164,4 +167,6 @@ Now if you make any changes to your index.php file they will update automaticall
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
 Containers usually terminate once the applicaiton is finished, but for this webapp we need to terminate manually with `ctl & c` but normally you can set containers to run small tasks, for tests etc. But you should endevour to have one process per container and link them if need be. 
+
+Well done for getting this far, if you have been able to follow the steps then you have all the required parts to begin app development with Docker! 
 
