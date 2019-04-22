@@ -96,6 +96,12 @@ docker build -t hello-docker .
 
 This is telling docker to build the image, naming it with `-t` to 'hello-docker' and the period at the end means look for the dockerfile in the current directory. The code will run, and the first step pulls down the image we specified from docker-hub, at the end it outputs our new image.
 
+
+**FYI** For a list of useful images, check out [Docker hub](https://www.hub.docker.com)
+
+You need to be logged in to search, but it even tells you what steps you need to put in your dockerfile - sweet! 
+
+
 ### Run your application 
 
 To run, do the following: 
@@ -106,10 +112,46 @@ docker run -p 8880:80 hello-docker
 
 The `-p` flag forwards port 8880 from host to port 80 inside the container. 
 
+Now if you open up your browser and enter `http://localhost:8880/` you should see `hello, Docker!` displayed - good work!!
 
-For a list of useful images, check out [Docker hub](https://www.hub.docker.com)
+**Note** to stop the container just enter ctl & C together.
 
-You need to be logged in to search, but it even tells you what steps you need to put in your dockerfile - sweet! 
+
+### Volumes
+
+Now if you were to update your code to something like the following: 
+
+**src/index.php**
+
+```
+<html>
+
+<h1>
+
+<?php
+
+echo "Hello, Docker!"
+
+?>
+
+</h1>
+
+</html>
+```
+
+(so that your font would be as a header) then you would need to re-run the build and run steps above. So for developing an application this can become tedious. This is because when we build the image, it makes a copy of that file, thus it is why we should use volumes.
+
+There are two types of volumes, one to persist data between containers (not covered here) and the second type which lets us share folders between host and container. You mount a local directory on your computer as a volume inside the container.
+
+To do it enter the following where MYPATH should be replaced by the absolute path of inside your src folder. If you are unsure what that is, just cd to src then enter `pwd` into terminal/command line.
+
+**Enter this command in terminal**
+```
+docker run -p 8880:80 -v MYPATH/:/var/www/html/ hello-docker
+```
+
+Now if you make any changes to 
+
 
 ## INSTALLING DOCKER
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
