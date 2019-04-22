@@ -39,6 +39,15 @@ Simply put the steps for creating your container (which hosts your app) are :
 2. Build file into an image
 3. Run image as a container
 
+
+## List of Terms 
+
+**Dockerfile** an image that contains a list of steps required to create an image
+**Image** This is the static implementation of your dockerfile, it is the base from which containers can be spawned. Note if your source code changes, then your image should be rebuilt.
+**Container** This is an instance of your image that can be started, stopped or destroyed. You can make multiple containers from one image (i.e. run multiple application instances for scaling)
+
+
+
 ## INSTALLING DOCKER
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
