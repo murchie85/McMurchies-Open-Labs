@@ -164,9 +164,9 @@ Now if you make any changes to your index.php file they will update automaticall
 
 ## CONCLUSION 
 
-![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
 Containers usually terminate once the applicaiton is finished, but for this webapp we need to terminate manually with `ctl & c` but normally you can set containers to run small tasks, for tests etc. But you should endevour to have one process per container and link them if need be. 
 
 Well done for getting this far, if you have been able to follow the steps then you have all the required parts to begin app development with Docker! 
 
+![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
