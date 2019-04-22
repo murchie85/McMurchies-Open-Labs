@@ -78,6 +78,7 @@ We don't need to start from scratch and write all the bits for our apache webser
 
 Add the following code:
 
+
 ```
 FROM php:7.0-apache
 COPY src/ /var/www/html/
@@ -90,6 +91,7 @@ Description line by line, 1 - use the code from dockerfile image called php and 
 
 Remember to change directory `cd` to wherever you have your dockerfile and run the following command : 
 
+*Enter this command in terminal*
 ```
 docker build -t hello-docker .
 ```
@@ -106,6 +108,7 @@ You need to be logged in to search, but it even tells you what steps you need to
 
 To run, do the following: 
 
+*Enter this command in terminal*
 ```
 docker run -p 8880:80 hello-docker
 ```
@@ -121,7 +124,7 @@ Now if you open up your browser and enter `http://localhost:8880/` you should se
 
 Now if you were to update your code to something like the following: 
 
-**src/index.php**
+*src/index.php*
 
 ```
 <html>
@@ -145,15 +148,19 @@ There are two types of volumes, one to persist data between containers (not cove
 
 To do it enter the following where MYPATH should be replaced by the absolute path of inside your src folder. If you are unsure what that is, just cd to src then enter `pwd` into terminal/command line.
 
-**Enter this command in terminal**
+*Enter this command in terminal*
 ```
 docker run -p 8880:80 -v MYPATH/:/var/www/html/ hello-docker
 ```
 
-Now if you make any changes to 
+The above additional `-v` flag means whatever is in MYPATH will be copied to /var/www/html/ of the container volume. 
+
+Now if you make any changes to your index.php file they will update automatically - cool! But if you want to upload the image for others to use, ensure you build as to replicate the image.  
 
 
-## INSTALLING DOCKER
+## CONCLUSION 
+
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
+Containers usually terminate once the applicaiton is finished, but for this webapp we need to terminate manually with `ctl & c` but normally you can set containers to run small tasks, for tests etc. But you should endevour to have one process per container and link them if need be. 
 
