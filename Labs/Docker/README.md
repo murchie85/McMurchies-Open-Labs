@@ -42,11 +42,74 @@ Simply put the steps for creating your container (which hosts your app) are :
 
 ## List of Terms 
 
-**Dockerfile** an image that contains a list of steps required to create an image
-**Image** This is the static implementation of your dockerfile, it is the base from which containers can be spawned. Note if your source code changes, then your image should be rebuilt.
+**Dockerfile** an image that contains a list of steps required to create an image  
+
+**Image** This is the static implementation of your dockerfile, it is the base from which containers can be spawned. Note if your source code changes, then your image should be rebuilt.  
+
 **Container** This is an instance of your image that can be started, stopped or destroyed. You can make multiple containers from one image (i.e. run multiple application instances for scaling)
 
+## Building your first Docker App
 
+At anytime if you get stuck, just look into the `hi-docker` folder next to this README.md file for reference.
+
+### Create a src folder
+
+Your dockerfile sits next to a folder src which has your source code for your application. Think of src as the app, and dockerfile as the infrastructure. 
+
+### Create a simple web application 
+
+Your simple web app will be an index.php file which needs to run on a web server. Don't worry about the web server, that gets handled in our dockerfile - our app is simply the following:
+
+create a file called `index.php` inside your src folder and paste the following code:
+
+
+```
+<?php
+
+echo "Hello, Docker!"
+
+?>
+```
+
+
+### Write your dockerfile 
+
+We don't need to start from scratch and write all the bits for our apache webserver, there is already an image that we can download and build upon. This is the beauty of docker, images are built on other images and so on, so you can leverage existing work up front.
+
+Add the following code:
+
+```
+FROM php:7.0-apache
+COPY src/ /var/www/html/
+EXPOSE 80
+```
+
+Description line by line, 1 - use the code from dockerfile image called php and the version 7.0-apache 2 - copy the code from your src folder (your mini app) into the location where apache will host the code 3 - ensure the docker port 80 is listening. 
+
+### Build your application 
+
+Remember to change directory `cd` to wherever you have your dockerfile and run the following command : 
+
+```
+docker build -t hello-docker .
+```
+
+This is telling docker to build the image, naming it with `-t` to 'hello-docker' and the period at the end means look for the dockerfile in the current directory. The code will run, and the first step pulls down the image we specified from docker-hub, at the end it outputs our new image.
+
+### Run your application 
+
+To run, do the following: 
+
+```
+docker run -p 8880:80 hello-docker
+```
+
+The `-p` flag forwards port 8880 from host to port 80 inside the container. 
+
+
+For a list of useful images, check out [Docker hub](https://www.hub.docker.com)
+
+You need to be logged in to search, but it even tells you what steps you need to put in your dockerfile - sweet! 
 
 ## INSTALLING DOCKER
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
