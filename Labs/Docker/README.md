@@ -29,6 +29,16 @@ Docker works on the principle of **Containers**  these are like VMs but are even
 The infrastructure compromise that Docker employs means your conatiner (thus your app) starts up in seconds rather than mintute, use fewer resources, disk space and less memory.
  
 
+## Creating a Docker Container 
+
+![docker flow ](https://cdn-images-1.medium.com/max/1200/1*joAfS_1sBhCOJzJuaAzzeg.png)
+
+Simply put the steps for creating your container (which hosts your app) are : 
+
+1. Write a dockerfile 
+2. Build file into an image
+3. Run image as a container
+
 ## INSTALLING DOCKER
 ![docker](https://cdn-images-1.medium.com/max/1600/1*9hGvYE5jegHm1r_97gH-jQ.png)
 
