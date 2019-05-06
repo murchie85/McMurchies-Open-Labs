@@ -122,19 +122,12 @@ docker run -it my-app bash
 ```
 
   
-  
+
 
 
 
 # DOCKER INFORMATION COMMANDS 
 
-
-### CURL DOCKER 
-
-```
-curl docker 
-
-```
 
 
 ### FIND THE PORT
