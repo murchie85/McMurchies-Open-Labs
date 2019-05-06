@@ -81,8 +81,10 @@ docker run -p 8880:80 -v MYPATH/:/var/www/html/ APP-NAME
 
 EXAMPLE
 
+### FULL RUN EXAMPLE 
+
 ```
-docker run -p 8880:80 -v /Users/adammcmurchie/projects/docker/simple-apache-php/src:/var/www/html/ hello-docker
+docker run -d -p 8800:80 -v /Users/adammcmurchie/projects/docker/simple-apache-php/src:/var/www/html/ hello-docker
 ```
 
 
