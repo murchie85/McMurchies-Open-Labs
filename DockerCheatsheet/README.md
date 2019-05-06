@@ -47,6 +47,12 @@ docker run -d application-name
 
 ### RUN DEFINE NAME & PORT
 
+
+```
+docker run -d --name redisHostPort -p external:internal myappname:latest
+```
+
+
 Redis actually runs on 6379
 
 ```
@@ -55,6 +61,42 @@ docker run -d --name redisHostPort -p 6379:6379 redis:latest
 
 
 *You can specify a particular IP address when you define the port mapping, for example, -p 127.0.0.1:6379:6379*
+
+
+
+### RUN ON RANDOM AVAILABLE PORT 
+
+```
+docker run -d --name redisDynamic -p 6379 redis:latest
+```
+
+
+### RUN AND BIND VOLUME 
+
+MYPATH=pwd + src
+
+```
+docker run -p 8880:80 -v MYPATH/:/var/www/html/ APP-NAME
+```
+
+EXAMPLE
+
+```
+docker run -p 8880:80 -v /Users/adammcmurchie/projects/docker/simple-apache-php/src:/var/www/html/ hello-docker
+```
+
+
+
+
+
+
+### FIND THE PORT
+
+```
+docker port redisDynamic 6379
+```
+
+
 
 ### LIST RUNNING CONTAINERS
 
