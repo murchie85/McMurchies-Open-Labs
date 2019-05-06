@@ -8,7 +8,7 @@
 
 
 
-## STEPS
+## HIGH LEVEL STEPS
 
 With examples...
 
@@ -22,9 +22,8 @@ docker build -t application-name .
 ```
 docker run -d application-name
 ```
-5. Optionally add volume flag `-v MYPATH/:/var/www/html/`
-
-
+5. Optionally add volume flag `-v MYPATH/:/var/www/html/`  
+  
 
 
 
@@ -34,6 +33,7 @@ docker run -d application-name
 ```
 docker build -t application-name .
 ```
+  
 
 
 
@@ -48,6 +48,7 @@ USE D FLAG
 ```
 docker run -d application-name
 ```
+  
 
 
 
@@ -69,12 +70,14 @@ docker run -d --name redisHostPort -p 6379:6379 redis:latest
 *You can specify a particular IP address when you define the port mapping, for example, -p 127.0.0.1:6379:6379*
 
 
+  
 
 ### RUN ON RANDOM AVAILABLE PORT 
 
 ```
 docker run -d --name redisDynamic -p 6379 redis:latest
 ```
+  
 
 
 ### RUN AND BIND VOLUME 
@@ -94,6 +97,7 @@ docker run -p 8880:80 -v $pwd/:/var/www/html/ APP-NAME
 
 
 EXAMPLE
+  
 
 ### RUN IN BACKGROUND WITH PORT, VOLUME AND NAME SPECIFIED 
 
@@ -106,6 +110,7 @@ example
 ```
 docker run --name pikachu -d -p external:internal -v FULLPATHTOSRC:/var/www/html/ APP-NAME
 ```
+  
 
 
 
@@ -116,7 +121,8 @@ docker run --name pikachu -d -p external:internal -v FULLPATHTOSRC:/var/www/html
 docker run -it my-app bash
 ```
 
-
+  
+  
 
 
 
