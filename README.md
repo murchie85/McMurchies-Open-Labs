@@ -7,15 +7,15 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 
 
 ## LEARNING MATERIALS
-[Introduction to Angular2](Labs/ANGULAR2/README.md) |   
-[Build a python webserver with Flask](Labs/Flask/README.md) |   
-[Learn Tomcat hands on](Labs/Tomcat/README.md) |   
-[Configuration Management with Chef & Docker](Labs/Chef/README.md) |   
-[React Fundamentals](Labs/REACT/README.md) |   
-[TDD Test Driven Development with JAVA](Labs/JAVATDD/README.md)) |  
-[ProcessingCryptoData with Python](Labs/ProcessingCryptoData/README.md) |    
-[Automating Python Scripts on Mac)](Labs/PythonAutomation/README.md) |   
-[Automating Powershell Scripts with Jenkins (Windows)](Labs/JenkinsAutomation/README.md) |   
+[Introduction to Angular2](ANGULAR2/README.md) |   
+[Build a python webserver with Flask](Flask/README.md) |   
+[Learn Tomcat hands on](Tomcat/README.md) |   
+[Configuration Management with Chef & Docker](Chef/README.md) |   
+[React Fundamentals](REACT/README.md) |   
+[TDD Test Driven Development with JAVA](AVATDD/README.md)) |  
+[ProcessingCryptoData with Python](ProcessingCryptoData/README.md) |    
+[Automating Python Scripts on Mac)](PythonAutomation/README.md) |   
+[Automating Powershell Scripts with Jenkins (Windows)](JenkinsAutomation/README.md) |   
 [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
 
 ## CODING CHALLENGES
