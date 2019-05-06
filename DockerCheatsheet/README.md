@@ -14,7 +14,7 @@ With examples...
 
 1. Create your app *(put it in src file normally)*
 2. Write your docker file 
-3. Build Image
+3. Build Image **(t allows you to add a friendly image name)** *DON'T* forget the period at the end
 ```
 docker build -t application-name .
 ```
@@ -28,12 +28,18 @@ docker run -d application-name
 
 
 
-## CODE SNIPPETS
+## DOCKER BUILD COMMANDS 
 
 ### BUILD 
 ```
 docker build -t application-name .
 ```
+
+
+
+
+# DOCKER RUN COMMANDS 
+
 
 ### RUN IN BACKGROUND 
 
@@ -79,17 +85,50 @@ MYPATH=pwd + src
 docker run -p 8880:80 -v MYPATH/:/var/www/html/ APP-NAME
 ```
 
+**USE CURRENT DIRECTORY**
+
+```
+docker run -p 8880:80 -v $pwd/:/var/www/html/ APP-NAME
+```
+
+
+
 EXAMPLE
 
-### FULL RUN EXAMPLE 
+### RUN IN BACKGROUND WITH PORT, VOLUME AND NAME SPECIFIED 
 
 ```
-docker run -d -p 8800:80 -v /Users/adammcmurchie/projects/docker/simple-apache-php/src:/var/www/html/ hello-docker
+docker run --name pikachu -d -p 8800:80 -v /Users/adammcmurchie/projects/docker/simple-apache-php/src:/var/www/html/ hello-docker
+```
+
+example 
+
+```
+docker run --name pikachu -d -p external:internal -v FULLPATHTOSRC:/var/www/html/ APP-NAME
+```
+
+
+
+### RUN AND LOGON AS BASH
+
+
+```
+docker run -it my-app bash
 ```
 
 
 
 
+
+# DOCKER INFORMATION COMMANDS 
+
+
+### CURL DOCKER 
+
+```
+curl docker 
+
+```
 
 
 ### FIND THE PORT
@@ -109,6 +148,18 @@ docker ps
 
 
 
+### INSPECT 
+
+
+```
+
+docker run -d --name pikachu redis
+
+docker inspect pikachu 
+
+```
+
+
 ### Container Information
 
 ```
@@ -118,6 +169,24 @@ docker inspect <friendly-name|container-id>
 
 ### Container logs 
 
+WONT WORK WITH IMAGE NAME  (Give it a --name when running)
+
 ```
 docker logs <friendly-name|container-id>
 ```
+
+
+
+# EXAMPLE DOCKERFILE CONFIG
+
+
+## NGINX 
+
+```
+#PORT SETUP AND COMMAND READY TO GO
+FROM nginx:1.11-alpine
+COPY index.html /usr/share/nginx/html/index.html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
