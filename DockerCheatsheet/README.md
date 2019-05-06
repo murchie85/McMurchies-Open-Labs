@@ -30,11 +30,50 @@ docker run -d application-name
 
 ## CODE SNIPPETS
 
+### BUILD 
 ```
 docker build -t application-name .
 ```
 
+### RUN IN BACKGROUND 
+
+USE D FLAG
 
 ```
 docker run -d application-name
+```
+
+
+
+### RUN DEFINE NAME & PORT
+
+Redis actually runs on 6379
+
+```
+docker run -d --name redisHostPort -p 6379:6379 redis:latest
+```
+
+
+*You can specify a particular IP address when you define the port mapping, for example, -p 127.0.0.1:6379:6379*
+
+### LIST RUNNING CONTAINERS
+
+```
+docker ps
+```
+
+
+
+
+### Container Information
+
+```
+docker inspect <friendly-name|container-id>
+```
+
+
+### Container logs 
+
+```
+docker logs <friendly-name|container-id>
 ```
