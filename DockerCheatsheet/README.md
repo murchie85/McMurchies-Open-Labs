@@ -4,11 +4,11 @@
 
 ## TOPICS COVERED 
 
-1. [INTRODUCTION](#INTRODUCTION)
+1. [High level steps](#HIGH-LEVEL-STEPS)
+2. [DOCKER-BUILD-COMMANDS](#DOCKER-BUILD-COMMANDS)
 
 
-
-## HIGH LEVEL STEPS
+## HIGH-LEVEL-STEPS
 
 With examples...
 
@@ -26,7 +26,7 @@ docker run -d application-name
   
 
 
-# DOCKER BUILD COMMANDS 
+# DOCKER-BUILD-COMMANDS 
 
 ### BUILD 
 
@@ -249,6 +249,36 @@ docker system prune -a
 
 
 
+# ON BUILD
+
+1. Create a application dockerfile that references a ready to go image with `onbuild`
+2. The ready to go image has ONBUILD commands which only run when the application image build is happening 
+
+The Maven container is designed to compile java programs. Magically all your project's Dockerfile needs to do is reference the base container containing the ONBUILD intructions:
+
+```
+FROM maven:3.3-jdk-8-onbuild
+CMD ["java","-jar","/usr/src/app/target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+```
+
+The base image's Dockerfile tells all
+
+```
+FROM maven:3-jdk-8
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+ONBUILD ADD . /usr/src/app
+
+ONBUILD RUN mvn install
+```
+
+There's a base image that has both Java and Maven installed and a series of instructions to copy files and run Maven.
+
+The following answer gives a Java example
+
+[How to build a docker container for a java app](https://stackoverflow.com/questions/31696439/how-to-build-a-docker-container-for-a-java-app/31710204#31710204)
 
 
 # EXAMPLE DOCKERFILE CONFIG
