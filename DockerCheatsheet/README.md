@@ -1,6 +1,6 @@
 # DOCKER - OVERVIEW 
 
-![Docker](https://cdn.vox-cdn.com/thumbor/fbrTLtxuP2D29o8VJUaE-u3NKfU=/0x0:792x613/1200x800/filters:focal(300x237:426x363)/cdn.vox-cdn.com/uploads/chorus_image/image/59850273/Docker_logo_011.0.png)  
+![Docker](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/how-to-deploy-java-apps-with-docker-a-quick-tutorial@3x-1560x760.png)  
 
 ## TOPICS COVERED 
 
@@ -296,7 +296,7 @@ echo passwords.txt >> .dockerignore
 ```
   
   It's wise to ignore .git directories
-  
+
 
 ## SSH TO CONTAINER OR RUN COMMANDS 
 
