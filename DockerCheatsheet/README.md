@@ -284,6 +284,36 @@ The following answer gives a Java example
 [How to build a docker container for a java app](https://stackoverflow.com/questions/31696439/how-to-build-a-docker-container-for-a-java-app/31710204#31710204)
 
 
+
+# GENERAL-TIPS
+
+## Ignore 
+
+To ignore say a paswords file just add a .dockerignore file 
+
+```
+echo passwords.txt >> .dockerignore
+```
+  
+  It's wise to ignore .git directories
+  
+
+## SSH TO CONTAINER OR RUN COMMANDS 
+
+
+To SSH run the following 
+
+```
+docker exec -it <container name> /bin/bash 
+```
+
+It may not allow bash so you can still run commands this way 
+
+```
+docker exec -it <container name> <command>
+```
+
+
 # EXAMPLE-DOCKERFILE-CONFIG
 
 
