@@ -4,9 +4,12 @@
 
 ## TOPICS COVERED 
 
-1. [High level steps](#HIGH-LEVEL-STEPS)
+1. [HIGH-LEVEL-STEPS](#HIGH-LEVEL-STEPS)
 2. [DOCKER-BUILD-COMMANDS](#DOCKER-BUILD-COMMANDS)
-
+3. [DOCKER-INFORMATION-COMMANDS](#DOCKER-INFORMATION-COMMANDS)
+4. [DOCKER-CLEANUP-COMMANDS](#DOCKER-CLEANUP-COMMANDS)
+5. [ON-BUILD-FLOW](#ON-BUILD-FLOW)
+6. [EXAMPLE-DOCKERFILE-CONFIG](#EXAMPLE-DOCKERFILE-CONFIG)
 
 ## HIGH-LEVEL-STEPS
 
@@ -140,7 +143,7 @@ docker run -d --name my-production-running-app -e NODE_ENV=production -p 3000:30
 ```
 
 
-# DOCKER INFORMATION COMMANDS 
+# DOCKER-INFORMATION-COMMANDS 
 
 
 
@@ -190,7 +193,7 @@ docker logs <friendly-name|container-id>
 
 
 
-# DOCKER IMAGE AND CONTAINER COMMANDS 
+# DOCKER-CLEANUP-COMMANDS
 
 - first remove all stopped containers
 - then remove images
@@ -249,7 +252,7 @@ docker system prune -a
 
 
 
-# ON BUILD
+# ON-BUILD-FLOW
 
 1. Create a application dockerfile that references a ready to go image with `onbuild`
 2. The ready to go image has ONBUILD commands which only run when the application image build is happening 
@@ -281,7 +284,7 @@ The following answer gives a Java example
 [How to build a docker container for a java app](https://stackoverflow.com/questions/31696439/how-to-build-a-docker-container-for-a-java-app/31710204#31710204)
 
 
-# EXAMPLE DOCKERFILE CONFIG
+# EXAMPLE-DOCKERFILE-CONFIG
 
 
 ## NGINX 
