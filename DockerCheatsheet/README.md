@@ -283,6 +283,60 @@ The following answer gives a Java example
 
 [How to build a docker container for a java app](https://stackoverflow.com/questions/31696439/how-to-build-a-docker-container-for-a-java-app/31710204#31710204)
 
+  
+
+# DATA-CONTAINER
+
+Data Containers are containers whose sole responsibility is to be a place to store/manage data.
+
+However, they don't run when you perform a `docker ps` command.
+
+Lets use a well-known image called busybox, Data containers can be moved to other hosts and shipped. 
+
+When creating the container, we also provide a -v option to define where other containers will be reading/saving data.
+
+```
+docker create -v /config --name adamsdataContainer busybox
+```
+
+
+This will pull busybox container down.
+
+With the container in place, we can now copy files from our local client directory into the container.
+
+
+```
+echo 'configuration' >> config.conf
+
+
+docker cp config.conf adamsdataContainer:/config/
+```
+
+Now our Data Container has our config, we can reference the container when we launch dependent containers requiring the configuration file.
+
+Using the `--volumes-from <container> ` 
+
+
+```
+docker run --volumes-from adamsdataContainer ubuntu ls /config
+```
+
+`ls /config` will show us the config file we pased in.
+
+If the volume existed, it would override, and we can map multiple volumes to an instance. 
+
+## EXPORTING OUR DATACONTAINER 
+
+```
+docker export adamsdataContainer > dataContainer.tar
+```
+
+Now we can import it back using the following 
+
+
+```
+docker import dataContainer.tar
+```
 
 
 # GENERAL-TIPS
