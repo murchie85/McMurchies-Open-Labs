@@ -26,7 +26,7 @@ docker run -d application-name
   
 
 
-## DOCKER BUILD COMMANDS 
+# DOCKER BUILD COMMANDS 
 
 ### BUILD 
 
