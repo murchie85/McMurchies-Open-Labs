@@ -26,16 +26,20 @@ docker run -d application-name
   
 
 
-
 ## DOCKER BUILD COMMANDS 
 
 ### BUILD 
+
+
 ```
 docker build -t application-name .
 ```
   
+### BUILD WITH NO CACHE 
 
-
+```
+docker build  --no-cache=true
+```
 
 
 # DOCKER RUN COMMANDS 
@@ -183,6 +187,67 @@ WONT WORK WITH IMAGE NAME  (Give it a --name when running)
 ```
 docker logs <friendly-name|container-id>
 ```
+
+
+
+# DOCKER IMAGE AND CONTAINER COMMANDS 
+
+- first remove all stopped containers
+- then remove images
+- then clean up 
+
+### Clean up containers 
+
+
+First list them 
+```
+docker ps -a
+```
+
+Now clean up
+
+```
+docker rm $(docker ps -a -f status=exited -q)
+```
+  
+
+Remove remaining manually
+
+```
+docker rm ID_or_Name ID_or_Name
+```
+
+
+### CLEAN UP IMAGES
+
+LIST all images
+
+```
+docker images -a
+``` 
+  
+REMOVE all in bulk
+
+```
+docker rmi $(docker images -a -q)
+```
+
+REMOVE remaining manually 
+
+```
+docker rmi Image Image
+
+```
+
+or if you can't remove them all then need to prune 
+
+PRUNE 
+
+```
+docker system prune -a
+```
+
+
 
 
 
