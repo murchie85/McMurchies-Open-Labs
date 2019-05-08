@@ -313,7 +313,9 @@ echo 'configuration' >> config.conf
 docker cp config.conf adamsdataContainer:/config/
 ```
 
-Now our Data Container has our config, we can reference the container when we launch dependent containers requiring the configuration file.
+Now our Data Container has our config, when we create other containers (like ubuntu below) we can pull in the volume from our adamsdataContainer.
+
+
 
 Using the `--volumes-from <container> ` 
 
