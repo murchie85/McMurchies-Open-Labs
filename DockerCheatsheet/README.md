@@ -20,13 +20,32 @@ With examples...
 2. Write your docker file 
 3. Build Image **(t allows you to add a friendly image name)** *DON'T* forget the period at the end
 ```
-docker build -t application-name .
+docker build -t madeup-image-name .
 ```
 4. Run Image as container
 ```
-docker run -d application-name
+docker run -d madeup-image-name
 ```
 5. Optionally add volume flag `-v MYPATH/:/var/www/html/`  
+  
+## EXAMPLE
+
+An example Python app 
+
+1. Create a folder 
+2. cd to to folder - add docker file like this one. **It adds everything in current directory to /code folder in container** 
+
+```
+FROM python:3
+ADD . /code
+WORKDIR /code
+RUN pip install -r requirements.txt
+```
+
+3. Build it by running `docker build -t madeup-image-name . ` **don't forget the period .**
+4. `docker run --name charmander -d -p 8885:80 -v $pwd/:/opt madeup-image-name` This will create a container named charmander, in background `d` on external port 8885, current directory will be synced to opt folder
+5. SSH to container with `docker exec -it charmander bash`  
+  
   
 
 
