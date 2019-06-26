@@ -93,13 +93,13 @@ docker run -d --name redisDynamic -p 6379 redis:latest
 MYPATH=pwd + src
 
 ```
-docker run -p 8880:80 -v MYPATH/:/var/www/html/ APP-NAME
+docker run -p 8880:80 -v MYPATH/:/var/www/html/ IMAGE-NAME-YOU-BUILT
 ```
 
 **USE CURRENT DIRECTORY**
 
 ```
-docker run -p 8880:80 -v $pwd/:/var/www/html/ APP-NAME
+docker run -p 8880:80 -v $pwd/:/var/www/html/ IMAGE-NAME-YOU-BUILT
 ```
 
 
@@ -207,6 +207,13 @@ First list them
 ```
 docker ps -a
 ```
+
+Stop them all
+```
+docker stop $(docker ps -a -q)
+```
+
+
 
 Now clean up
 
