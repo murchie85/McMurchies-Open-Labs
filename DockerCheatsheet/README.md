@@ -20,11 +20,11 @@ With examples...
 2. Write your docker file 
 3. Build Image **(t allows you to add a friendly image name)** *DON'T* forget the period at the end
 ```
-docker build -t madeup-image-name .
+docker build -t MYIMAGENAME .
 ```
 4. Run Image as container
 ```
-docker run -d madeup-image-name
+docker run -d MYIMAGENAME
 ```
 5. Optionally add volume flag `-v MYPATH/:/var/www/html/`  
   
@@ -42,7 +42,7 @@ WORKDIR /code
 RUN pip install -r requirements.txt
 ```
 
-3. Build it by running `docker build -t madeup-image-name . ` **don't forget the period .**
+3. Build it by running `docker build -t MYIMAGENAME . ` **don't forget the period .**
 4. `docker run --name charmander -d -p 8885:80 -v $pwd/:/opt madeup-image-name` This will create a container named charmander, in background `d` on external port 8885, current directory will be synced to opt folder
 5. SSH to container with `docker exec -it charmander bash`  
   
@@ -55,7 +55,7 @@ RUN pip install -r requirements.txt
 
 
 ```
-docker build -t application-name .
+docker build -t MY_GIVEN_IMAGENAME .
 ```
   
 ### BUILD WITH NO CACHE 
@@ -166,6 +166,23 @@ docker run -d --name my-production-running-app -e NODE_ENV=production -p 3000:30
 # DOCKER-INFORMATION-COMMANDS 
 
 
+### GET CMD NAME
+
+```
+docker top NAME-U-ASSIGNED
+```
+
+### GET PID & CAT ENV
+
+```
+DBPID=$(pgrep CMD-NAME)
+echo Service is $DBPID
+ls /proc
+
+cat /proc/$DBPID/environ
+```
+
+
 
 ### FIND THE PORT
 
@@ -180,7 +197,6 @@ docker port redisDynamic 6379
 ```
 docker ps
 ```
-
 
 
 
