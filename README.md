@@ -6,17 +6,33 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 ![Generic Coding Image lol](https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1)
 
 
-## LEARNING MATERIALS
-[Introduction to Angular2](ANGULAR2/README.md) |   
-[Build a python webserver with Flask](Flask/README.md) |   
-[Learn Tomcat hands on](Tomcat/README.md) |   
-[Configuration Management with Chef & Docker](Chef/README.md) |   
-[React Fundamentals](REACT/README.md) |   
-[TDD Test Driven Development with JAVA](AVATDD/README.md)) |  
-[ProcessingCryptoData with Python](ProcessingCryptoData/README.md) |    
-[Automating Python Scripts on Mac)](PythonAutomation/README.md) |   
-[Automating Powershell Scripts with Jenkins (Windows)](JenkinsAutomation/README.md) |   
-[Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT)
+## LEARNING MATERIALS  
+  
+|  Navigation |
+|--------------|     
+| [Introduction to Tech](#Introduction-To-Tech)| 
+|   [Introduction to Angular2](ANGULAR2/README.md) |   
+|   [Build a python webserver with Flask](Flask/README.md) |   
+|   [Learn Tomcat hands on](Tomcat/README.md) |   
+|   [Configuration Management with Chef & Docker](Chef/README.md) |   
+|   [React Fundamentals](REACT/README.md) |   
+|   [TDD Test Driven Development with JAVA](AVATDD/README.md)) |  
+|   [ProcessingCryptoData with Python](ProcessingCryptoData/README.md) |    
+|   [Automating Python Scripts on Mac)](PythonAutomation/README.md) |   
+|   [Automating Powershell Scripts with Jenkins (Windows)](JenkinsAutomation/README.md) |   
+|   [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT) |   
+    
+
+## Introduction To Tech
+
+
+
+
+
+
+  
+
+
 
 ## CODING CHALLENGES
 
