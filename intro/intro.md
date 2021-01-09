@@ -1,10 +1,16 @@
 # Getting into Tech & DevOps
+|  Navigation |
+|--------------|     
+| [Project Flow and CICD](Project-Flow-and-CICD) | 
+|   [Tech Role Types](#Tech-Role-Types) |  
 
-## Project Flow and CICD.   
+## Project Flow and CICD
     
 ## Agile 
     
-## Types of Engineer   
+## Tech Role Types
+  
+This is a breakdown of **ALL THE DIFFERENT KIND OF TECH JOBS** , the different kind of roles, what they entail and so on.  
   
 ### Front End  Developer  
       
