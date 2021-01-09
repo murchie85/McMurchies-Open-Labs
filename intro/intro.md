@@ -4,7 +4,20 @@
 | [Project Flow and CICD](Project-Flow-and-CICD) | 
 |   [Tech Role Types](#Tech-Role-Types) |  
 
-## Project Flow and CICD
+## Project Flow and Software Development LifeCycle (SDLC). 
+    
+     
+     
+- Most people who struggle to find Tech Jobs is because they do not have the professional skills  
+- This could be those new to tech, or those who are good at tech but lacking experience in teams with collaboration  
+- These skills include:  
+    - Knowledgge of Software Development Lifecycle 
+    - Knowledge of working on projects
+    - Knowledge of how people track their work in projects. 
+    - Agile & Scrum fundamentals (mandatory in any modern organisation). 
+    
+     
+One of the main reasons people struggle to find jobs, especially those learning tech and trying to make it into tech jobs is that they do not learn the important professional skills required by every
     
 ## Agile 
     
