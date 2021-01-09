@@ -10,7 +10,7 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
   
 |  Navigation |
 |--------------|     
-| [Introduction to Tech](#Introduction-To-Tech)| 
+| [Introduction to Tech](intro/intro.md) | 
 |   [Introduction to Angular2](ANGULAR2/README.md) |   
 |   [Build a python webserver with Flask](Flask/README.md) |   
 |   [Learn Tomcat hands on](Tomcat/README.md) |   
@@ -24,6 +24,49 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
     
 
 ## Introduction To Tech
+ 
+
+SDLC  
+STAFF TYPE  
+AGILE SCRUM    
+  
+Professional Langauge  
+  
+- T-shaped engineer
+- Bell Curve versus the Balanced Scorecard
+- Watch plenty of Simon Sinek videos on youtube, write down his shit as it comes off very well in interviews
+- Learn management model uses cases:
+   - Spotify Model
+   - Agile at ING (read up on the centralisation scandal and the learnings)
+  - Verticle vs Horizontal integration
+DEVOPS EXPECTATIONS/REQ
+
+
+Learn Linux 
+Learn some fundamental Sysadmin 
+Learn to get good at scripting (bash and python)
+Learn to use GitHub and start making miniprojeces
+Learn what build and release is (a good way is to learn some Jenkins)
+Learn cloud basics
+
+
+	Continuous Integration
+	Continuous Development
+	Continuous Testing
+	Continuous Deployment
+	Continuous Monitoring
+ 
+- Pipeline Automation Metrics (i.e. "prove to me we have automated any code promotion")
+- Reduction in Down-time KPI (i.e. "Show me proof we have reduced downtime)
+- Monitoring ("Have we put in any monitoring for our services?")
+ 
+
+
+Day in the life of a DevOps Engineer  
+  
+CICD  
+IAAC  
+Continous Monitoring
 
 
 
