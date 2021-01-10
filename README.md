@@ -10,7 +10,8 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
   
 |  Navigation |
 |--------------|     
-| [Introduction to Tech](intro/intro.md) | 
+|   [Introduction to Tech](intro/intro.md) |   
+|   [Introduction to DevOps](devops/README.md) | 
 |   [Introduction to Angular2](ANGULAR2/README.md) |   
 |   [Build a python webserver with Flask](Flask/README.md) |   
 |   [Learn Tomcat hands on](Tomcat/README.md) |   
@@ -22,7 +23,7 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 |   [Automating Powershell Scripts with Jenkins (Windows)](JenkinsAutomation/README.md) |   
 |   [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT) |   
 
- 
+
 ```
 	Continuous Integration
 	Continuous Development

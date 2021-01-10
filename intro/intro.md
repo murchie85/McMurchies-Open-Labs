@@ -1,6 +1,7 @@
 # Getting into Tech & DevOps
 |  Navigation |
 |--------------|     
+|   [Home](../README.md) |   
 | [Project Flow and CICD](Project-Flow-and-CICD) | 
 |   [Tech Role Types](#Tech-Role-Types) |  
 
@@ -32,13 +33,6 @@ One of the main reasons people struggle to find jobs, especially those learning 
    - Verticle vs Horizontal integration
 
 
-
-Learn Linux 
-Learn some fundamental Sysadmin 
-Learn to get good at scripting (bash and python)
-Learn to use GitHub and start making miniprojeces
-Learn what build and release is (a good way is to learn some Jenkins)
-Learn cloud basics
     
 ## Tech Role Types
   
