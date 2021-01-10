@@ -20,6 +20,25 @@
 One of the main reasons people struggle to find jobs, especially those learning tech and trying to make it into tech jobs is that they do not learn the important professional skills required by every
     
 ## Agile 
+
+## Professional Language  
+  
+- T-shaped engineer
+- Bell Curve versus the Balanced Scorecard
+- Watch plenty of Simon Sinek, Socratica and techworld with nana
+- Learn management model uses cases:
+   - Spotify Model
+   - Agile and scrum
+   - Verticle vs Horizontal integration
+
+
+
+Learn Linux 
+Learn some fundamental Sysadmin 
+Learn to get good at scripting (bash and python)
+Learn to use GitHub and start making miniprojeces
+Learn what build and release is (a good way is to learn some Jenkins)
+Learn cloud basics
     
 ## Tech Role Types
   

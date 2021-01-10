@@ -21,41 +21,16 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 |   [Automating Python Scripts on Mac)](PythonAutomation/README.md) |   
 |   [Automating Powershell Scripts with Jenkins (Windows)](JenkinsAutomation/README.md) |   
 |   [Working with GIT and Basic Processing of CryptoCurrency Data (for Windows)](https://github.com/murchie85/CICD_ESSENTIALS/tree/master/LAB1-GIT) |   
-    
 
-## Introduction To Tech
  
-
-SDLC  
-STAFF TYPE  
-AGILE SCRUM    
-  
-Professional Langauge  
-  
-- T-shaped engineer
-- Bell Curve versus the Balanced Scorecard
-- Watch plenty of Simon Sinek videos on youtube, write down his shit as it comes off very well in interviews
-- Learn management model uses cases:
-   - Spotify Model
-   - Agile at ING (read up on the centralisation scandal and the learnings)
-  - Verticle vs Horizontal integration
-DEVOPS EXPECTATIONS/REQ
-
-
-Learn Linux 
-Learn some fundamental Sysadmin 
-Learn to get good at scripting (bash and python)
-Learn to use GitHub and start making miniprojeces
-Learn what build and release is (a good way is to learn some Jenkins)
-Learn cloud basics
-
-
+```
 	Continuous Integration
 	Continuous Development
 	Continuous Testing
 	Continuous Deployment
 	Continuous Monitoring
- 
+```  
+
 - Pipeline Automation Metrics (i.e. "prove to me we have automated any code promotion")
 - Reduction in Down-time KPI (i.e. "Show me proof we have reduced downtime)
 - Monitoring ("Have we put in any monitoring for our services?")
@@ -64,9 +39,7 @@ Learn cloud basics
 
 Day in the life of a DevOps Engineer  
   
-CICD  
-IAAC  
-Continous Monitoring
+
 
 
 
