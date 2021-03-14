@@ -3,11 +3,54 @@
 |--------------|     
 |   [Home](../README.md) |   
 | [Project Flow and CICD](Project-Flow-and-CICD) | 
-|   [Tech Role Types](#Tech-Role-Types) |  
+|   [Tech Role Types](#Tech-Role-Types) |    
+
+
+## CheatSheet List of Resources
+  
+
+1. The T-Shaped Engineer:
+
+https://alexkondov.com/the-t-shaped-engineer/
+
+2. The 12 factor app:
+
+https://12factor.net/ 
+
+3. The well architected framework: 
+
+https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/
+
+4. The scrum pigglets: 
+
+https://images.slideplayer.com/28/9419664/slides/slide_9.jpg 
+
+5. The spotify model:
+
+https://www.atlassian.com/agile/agile-at-scale/spotify   
+
+ youtube video: https://www.youtube.com/watch?v=4GK1NDTWbkY&t=18s&ab_channel=AndreasTjernsli 
+
+6. The phoenix project: 
+  
+https://www.audible.co.uk/pd/The-Phoenix-Project-Audiobook/B00VB034GK 
+
+7. The Chaos Monkey:
+
+https://netflix.github.io/chaosmonkey/
+  
+8. The builders Pattern: 
+
+https://www.geeksforgeeks.org/builder-design-pattern/
+
+9. The Software Development Lifecycle (SLDC)
+  
+https://www.tutorialspoint.com/sdlc/sdlc_overview.htm
+    
+    
 
 ## Project Flow and Software Development LifeCycle (SDLC). 
     
-     
      
 - Most people who struggle to find Tech Jobs is because they do not have the professional skills  
 - This could be those new to tech, or those who are good at tech but lacking experience in teams with collaboration  
