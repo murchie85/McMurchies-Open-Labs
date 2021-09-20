@@ -94,7 +94,7 @@ More talking and coordination, less doing and implementing.
 ```
 Coding: 10% 
 Design: 50%
-People: 0%
+People: 40%
 ```  
   
 ![](https://miro.medium.com/max/1838/1*AMQss_QnXBT0hGmYVoPxpg.jpeg)  
