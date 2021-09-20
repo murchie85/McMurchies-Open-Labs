@@ -6,6 +6,190 @@
 |   [Tech Role Types](#Tech-Role-Types) |    
 
 
+    
+## Tech Role Types
+  
+This is a breakdown of **ALL THE DIFFERENT KIND OF TECH JOBS** , the different kind of roles, what they entail have a look and let me know which ones suit you! 
+
+
+## FRONT END DEV 
+### £28,000 - £58,000
+
+
+**"you code the look and feel of websites and mobile apps"**
+
+```
+Coding: 50%
+Design: 30%
+People: 20%
+```
+![](https://crampete-staticfiles.s3.ap-south-1.amazonaws.com/images/cramcourse/frontend.png)  
+
+ Do you like designing the look and feel of things?   
+Such as making websites, user interfaces for apps, understanding and optimising how the customer journey is on the website.   
+(example might be. you design a website flow to ensure customers dont' drop off halfway through a loan application)
+
+  
+## BACKEND DEV 
+### £30,000 - £70,000
+
+**"you code the BRAIN and functionality of websites and mobile apps"**
+
+```
+Coding: 50%
+Design: 30%
+People: 20%
+```
+  
+![](https://yourcreativepeople.com/site/user/images/Josh_Desk_2.jpg)  
+
+ Do you want to code up applications and build things.   
+Such as code up  the core functions for apps and websites on phone, computer and tablets.This is the main standard software developer, you will get a requirement from your boss 'I need the app to save the users name to a database and automatically send them an email on registration'.    
+Then you go away, work on it, code it up and release it for everyone to use.   
+You are much more a problem solver, atttention to detail and usually stick your headphones on and get on with it.
+
+## DevOps Engineer 
+### £50,000 - £100,000 
+  
+**"You automate stuff, script stuff, fix stuff and are highly self-driven and like digital tools."**
+  
+```  
+Coding: 33%
+Design: 33%
+People: 33%
+```
+![](https://apprenticeshipguide.co.uk/wp-content/uploads/2020/10/DevOps-engineer-800x500_c.png)
+![](https://www.altexsoft.com/media/2018/08/devops-role-3.png)
+  
+
+You focus on having a broad (shallow) knowledge of a lot of tool but specific knowledge in 4 or 5 areas that make you valuable.   
+You do a lot of scripting and infrastructure work (this means you care more about the system, application performance than the product or application.)  
+
+
+
+## PROJECT MANAGER/SCRUM MASTER 
+### £52,000 - £76,000
+
+**"you coordinate teams, and help them reach their goals."**
+  
+```  
+Coding: 0%
+Design: 30%
+People: 70%
+```  
+  
+![](https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/Top-Qualities.jpg)  
+
+ Do you want to be in tech-people space, i.e. project management, scrum master, Ethics in tech etc.   
+This is where you have a little bit of tech knowledge but you are applying it ot building new processes and aligning people to values.  
+More talking and coordination, less doing and implementing.  
+  
+
+## Solutions Architect 
+### £62,000 - £85,000
+  
+**"You draw system/app/data design diagrams and documents."** 
+  
+
+```
+Coding: 10% 
+Design: 50%
+People: 0%
+```  
+  
+![](https://miro.medium.com/max/1838/1*AMQss_QnXBT0hGmYVoPxpg.jpeg)  
+
+Are you interested in learning and producing architectures
+Such as doing application,system flow design on things like draw. io or microsoft visio.   
+ (This means being a picture person and talking strategy a lot)  
+you are thinking broad and big picture.  
+  
+## Cloud Engineer/Architect 
+### £40,000 - £90,000
+  
+**"You manage a company's computing & cloud infrastructure"**
+  
+```
+Coding (scripting): 35%
+Design: 35%
+People: 30%
+```  
+  
+![](https://www.northeastern.edu/graduate/blog/wp-content/uploads/2020/09/how-to-become-a-cloud-engineer.png)  
+
+Do you think you might like doing system maintenance and operations?  
+More likely to work additional hours if things break.  
+This is learning Cloud and keeping servers up and running, this is like coding but you are automating, optimising and keeping things clean rather than building new things. 
+
+  
+## Data Scientist / Business Analyst 
+### £40,000 - £60,000
+
+**"You gather data, perform analytics and present to the business"**  
+
+```
+Coding: 20%
+Design: 20%
+People(Business): 60%
+```
+  
+![](https://www.simplilearn.com/ice9/free_resources_article_thumb/Business_Analyst_Job_Descriptions_Salaries_And_Tips_To_Become_One.jpg)  
+
+Are you into Data insights, visualisations and helping create metrics for the business to use.  
+This might be you creating a program to do a lot of math operations and make diagrams.  
+You are focused on data insight interpretation, awareness and trends of figures.  
+
+  
+## Data Scientist / AI Engineer / Data engineer 
+### £40,000 - £70,000
+
+**"You clean data, process, store and apply functions to gain new insights."**
+  
+```
+Coding: 50%
+Design: 30%
+People: 20% 
+```  
+  
+![](https://parsers.me/wp-content/uploads/2019/09/1-Data-Scientist.png)  
+
+(Hands on version of previous, without the need to go to business).   
+Do you like Data and AI, same as above but you are more focused on building and solving problems, less about reports.  
+You are much more a problem solver, atttention to detail and usually stick your headphones on and get on with it.
+
+  
+## DataBase Admin 
+### £30,000 - £60,000 
+  
+**"You care about data formats, size and who has access."**
+```
+Coding: 30%
+Design: 60%
+People: 10%
+```  
+![](https://w7.pngwing.com/pngs/726/218/png-transparent-database-administrator-database-management-system-modern-database-management-information-technology-business-service-people-information-technology.png)  
+
+- working with maintaining data storage, HUGE focus on data structure (what type is this row, what size is the data the business needs to keep...legal storage requirements etc)
+
+  
+## Test Developer/Lead 
+### £30,000 - £65,000 
+  
+**"You dont like reckless developers and standards mean everything!"**
+  
+```  
+Coding: 40%
+Design: 50%
+People: 10%
+```  
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB1sCWvEIZbgcSkVpeQFM_kx_mvWaengWZTg&usqp=CAU)
+  
+You code but your main focus is writing/coding up tests for all the applications, systems in the company. You have to think how to break things, how people might have missed and forgotten thing, then build harnesses to protect that from happening. You are very risk averse.
+
+    
+  
+
 ## CheatSheet List of Resources
   
 
@@ -77,149 +261,6 @@ One of the main reasons people struggle to find jobs, especially those learning 
    - Agile and scrum
    - Verticle vs Horizontal integration
 
-
-    
-## Tech Role Types
-  
-This is a breakdown of **ALL THE DIFFERENT KIND OF TECH JOBS** , the different kind of roles, what they entail have a look and let me know which ones suit you! 
-
-
-## FRONT END DEV 
-### £28,000 - £58,000
-
-
-**"you code the look and feel of websites and mobile apps"**
-
-```
-Coding: 50%
-Design: 30%
-People: 20%
-```
- Do you like designing the look and feel of things? Such as making websites, user interfaces for apps, understanding and optimising how the customer journey is on the website. (example might be. you design a website flow to ensure customers dont' drop off halfway through a loan application)
-  
-## BACKEND DEV 
-### £30,000 - £70,000
-
-**"you code the BRAIN and functionality of websites and mobile apps"**
-
-```
-Coding: 50%
-Design: 30%
-People: 20%
-```
-
- Do you want to code up applications and build things. Such as code up  the core functions for apps and websites on phone, computer and tablets.This is the main standard software developer, you will get a requirement from your boss 'I need the app to save the users name to a database and automatically send them an email on registration', then you go away, work on it, code it up and release it for everyone to use.   
-
-
-## DevOps Engineer 
-### £50,000 - £100,000 
-  
-**"You automate stuff, script stuff, fix stuff and are highly self-driven and like digital tools."**
-  
-```  
-Coding: 33%
-Design: 33%
-People: 33%
-```
-  
-You focus on having a broad (shallow) knowledge of a lot of tools, but specific knowledge in 4 or 5 areas that make you valuable. You do a lot of scripting and infrastructure work (this means you care more about the system, application performance than the product or application.)
-
-
-
-## PROJECT MANAGER/SCRUM MASTER 
-### £52,000 - £76,000
-
-**"you coordinate teams, and help them reach their goals."**
-  
-```  
-Coding: 0%
-Design: 30%
-People: 70%
-```
- Do you want to be in tech-people space, i.e. project management, scrum master. Ethics in tech etc. This is where you have a little bit of tech knowledge but you are applying it ot building new processes and aligning people to values.
-  
-
-## Solutions Architect 
-### £62,000 - £85,000
-  
-**"You draw system/app/data design diagrams and documents."** 
-  
-
-```
-Coding: 10% 
-Design: 50%
-People: 0%
-```
-Or are you interested in learning and doing architectures, so like doing application,system flow design on things like draw. io or microsoft visio.  (This means being a picture person and talking strategy a lot)
-  
-## Cloud Engineer/Architect 
-### £40,000 - £90,000
-  
-**"You manage a company's computing & cloud infrastructure"**
-  
-```
-Coding (scripting): 35%
-Design: 35%
-People: 30%
-```
-Do you think you might like doing system maintenance and operations  (lots of overtime and $$$) this is learning Cloud and keeping servers up and running, this is like coding but you are automating, optimising and keeping things clean rather than building new things. 
-
-  
-## Data Scientist / Business Analyst 
-### £40,000 - £60,000
-
-**"You gather data, perform analytics and present to the business"**  
-
-```
-Coding: 20%
-Design: 20%
-People(Business): 60%
-```
-  
-
-Are you into Data insights, visualisations and helping create metrics for the business to use. This might be you creating a program to do a lot of math operations and make diagrams.
-
-  
-## Data Scientist / AI Engineer / Data engineer 
-### £40,000 - £70,000
-
-**"You clean data, process, store and apply functions to gain new insights."**
-  
-```
-Coding: 50%
-Design: 30%
-People: 20% 
-```
-(Hands on version of previous, without the need to go to business). Do you like Data and AI, same as above but you are more focused on building and solving problems, less about reports.-- 
-
-  
-## DataBase Admin 
-### £30,000 - £60,000 
-  
-**"You care about data formats, size and who has access."**
-```
-Coding: 30%
-Design: 60%
-People: 10%
-```
-- working with maintaining data storage, HUGE focus on data structure (what type is this row, what size is the data the business needs to keep...legal storage requirements etc)
-
-  
-## Test Developer/Lead 
-### £30,000 - £65,000 
-  
-**"You dont like reckless developers and standards mean everything!"**
-  
-```  
-Coding: 40%
-Design: 50%
-People: 10%
-```
-  
-You code but your main focus is writing/coding up tests for all the applications, systems in the company. You have to think how to break things, how people might have missed and forgotten thing, then build harnesses to protect that from happening. You are very risk averse.
-
-  
-  
 
 
 # IT Roles in More Detail 
