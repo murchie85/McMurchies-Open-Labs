@@ -1,4 +1,4 @@
-# Getting into Tech & DevOps
+# Getting into Tech
 |  Navigation |
 |--------------|     
 |   [Home](../README.md) |   
