@@ -11,7 +11,7 @@ A one stop shop for **REAL** hands on coding practice, with tutotials on working
 |  Navigation |
 |--------------|     
 |   [Introduction to Tech](intro/intro.md) |   
-|   [Introduction to Python](python/README.md) |   
+|   [Learn to Code](learnToCode.md) |   
 |   [Introduction to DevOps](devops/README.md) | 
 |   [Introduction to Angular2](ANGULAR2/README.md) |   
 |   [Build a python webserver with Flask](Flask/README.md) |   
