@@ -1,4 +1,4 @@
-﻿# Let's learn to code 
+# Let's learn to code 
 ![](https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg)
 
 ## Navigation 
@@ -14,7 +14,23 @@ Python
 - Imports
 - Functions
 
-`git`, `markdown`, `Using an API`, `Databases`, `Web Servers`, `Sublime vs Code`, `HTML`, `CSS`
+`git`, `markdown`, `Using an API`, `Databases`, `Web Servers`, `Sublime vs Code`, `HTML`, `CSS`  
+
+**Work Checklist**  
+
+`build a website, serve it online via git`  
+`build a dynamic website serve it online using FastAPI` (Maybe a random news app)  
+`docker`,   
+`jira`,   
+`confluence`,  
+`slack`, 
+`CICD github actions`,
+`Cloud basics`,
+`data science`,
+`ML`,
+
+- Continuous Improvement Mindset
+- **10 small projects**, **3 medium projects**, **1 hard project**
 
 ## Project Ideas
 
@@ -30,8 +46,22 @@ Python
 - What is Python?
 
 
-- How do you run python?
+- What is Bash/Terminal/CMD
 
+
+
+
+1. Open terminal
+2. Create a folder called Naomis_workspace
+3. Create a folder called day1
+4. Go into the folder and create program hello world
+
+
+practice 
+make a file, delete a file, make a file, open a file edit file,.....
+
+
+- How do you run python?
 
 - Why do you code in python? What do you use Python for?
 
@@ -42,9 +72,9 @@ Python
 
 ![](https://docs.microsoft.com/en-us/shows/hello-world/media/helloworld_383x215.png)
 
-1. Get a code editor 
-2. Learn to switch directories 
-3. Learn to create a file
+1. Get a code editor                 [done]
+2. Learn to switch directories       [done]
+3. Learn to create a file            [done]
 4. Learn to delete a file 
 5. repeat process a few times 
 6. hello world
@@ -75,6 +105,14 @@ What is version control?
 
 
 
+# More tasks 
+
+- Get user input
+- write and read file
+- Splitting lines
+
+
+
 ## Useful Links 
 
 Learn Python shorts: https://www.youtube.com/watch?v=bY6m6_IIN94 
@@ -83,6 +121,7 @@ Learn Python shorts: https://www.youtube.com/watch?v=bY6m6_IIN94
 
 ## Fun Breakup Links
 
+- [learn to code](https://www.youtube.com/watch?v=NtfbWkxJTHw)
 - [html](https://youtu.be/ok-plXXHlWw)
 - [css](https://youtu.be/OEV8gMkCHXQ)
 - [python](https://youtu.be/x7X9w_GIm1s)
@@ -91,6 +130,8 @@ Learn Python shorts: https://www.youtube.com/watch?v=bY6m6_IIN94
 - Bash [fireship](https://youtu.be/I4EWvMFj37g)
 - [Spotify Model](https://www.youtube.com/watch?v=4GK1NDTWbkY)
 - [vs Code](https://youtu.be/KMxo3T_MTvY)
+- [12 factor app](https://12factor.net/)
+- [Well architected Framework]
 
 # Professional Skills to Learn
 
@@ -108,6 +149,54 @@ Learn Python shorts: https://www.youtube.com/watch?v=bY6m6_IIN94
 - Watch this as an example of how teams can work well  [together](https://youtu.be/4GK1NDTWbkY)
 
   
+# useful notes
+
+## Key commands 
+
+
+
+## bash commands 
+
+
+```shell
+cd              # change directory       cd desktop
+ls              # List files     ls
+pwd             # present working directory (where am I) pwd
+mkdir           # make directory mkdir naomisFolder
+rm              # remove file    rm hello.py
+touch           # make a file    touch hello.py
+cp              # copy a b       cp filea.txt fileb.txt
+clear           # clear screen   clear
+```
+
+
+
+## Creating a new git repo 
+
+1. Go to github
+2. Click plus icon 
+3. Create new project and copy the line with the url 
+
+
+```
+git init # only do this once for new project
+
+
+git add .
+git commit -m 'my first commit'
+
+git remote add origin url.git   # only do this once 
+git push -u origin master
+
+
+```
+
+
+
+
+### Rules 
+
+When naming a file, program or repo try not use a space
 
 # General Pointers
 
