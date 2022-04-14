@@ -92,6 +92,52 @@ What is version control?
 - Make some more changes
 - Update to git
 
+
+**Creating a new git repo**
+
+1. Go to [github](https://github.com/)
+2. `Create a new repository`: Click on the plus icon in the top right
+	- Add a repo name
+	- Add a description
+	- leave everything else as is
+	- click next 
+3. copy only the line which has `git remote add origin` in it.  
+4. On your local machine, (in terminal or command line) cd into your project folder.
+5. Run the commands below only once. 
+
+
+### Run only once per new project  
+
+```
+git init 
+
+git add .
+git commit -m 'my first commit'
+
+git remote add origin url.git
+
+git push -u origin master
+
+```  
+  
+### Run anytime you make changes to be saved. 
+  
+ ```
+git init 
+
+git add .
+git commit -m 'my changes listed here'
+
+git push
+
+```  
+
+
+
+
+
+
+
 ## Task Three: If Logic & Dates
 
 ![](https://cdn.educba.com/academy/wp-content/uploads/2019/11/If-Statement-in-Python.png) 
@@ -169,27 +215,6 @@ cp              # copy a b       cp filea.txt fileb.txt
 clear           # clear screen   clear
 ```
 
-
-
-## Creating a new git repo 
-
-1. Go to github
-2. Click plus icon 
-3. Create new project and copy the line with the url 
-
-
-```
-git init # only do this once for new project
-
-
-git add .
-git commit -m 'my first commit'
-
-git remote add origin url.git   # only do this once 
-git push -u origin master
-
-
-```
 
 
 
