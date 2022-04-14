@@ -114,7 +114,7 @@ git init
 git add .
 git commit -m 'my first commit'
 
-git remote add origin url.git
+git remote add origin **PUTTHEGITULINHERE**
 
 git push -u origin master
 
@@ -122,14 +122,14 @@ git push -u origin master
   
 ### Run anytime you make changes to be saved. 
   
- ```
+
+```
 git init 
 
 git add .
 git commit -m 'my changes listed here'
 
 git push
-
 ```  
 
 
